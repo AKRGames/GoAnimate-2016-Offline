@@ -1,4 +1,4 @@
-title Wrapper: Offline Import Script
+title GoAnimate 2016: Offline Import Script
 :: Helps to make importing files using the theme editing workaround easier
 :: Author: benson#0411
 :: License: MIT
@@ -19,7 +19,7 @@ popd utilities
 if !errorlevel! NEQ 0 goto error_location
 goto noerror_location
 :error_location
-echo Doesn't seem like this script is in Wrapper: Offline's utilities folder.
+	echo Doesn't seem like this script is in GoAnimate 2016: Offline's utilities folder.
 goto end
 :noerror_location
 
@@ -32,7 +32,7 @@ if "!SUBSCRIPT!"=="" (
 :point_insertion
 
 :: patch detection
-if exist "..\patch.jpg" echo importing doesn't matter if whopper's patched && goto end
+if exist "..\patch.jpg" echo Importing Dosen't Matter If GoNimaet'S Pachd && goto end
 
 :: Initialize variables
 set FOLDERFILLED=n
@@ -106,7 +106,7 @@ for %%a in (import_these\*) do (
 	if !cfext!==.ogg echo Sorry, OGGs don't work. & echo: & goto moveconflicts
 	:: Error catch
 	if !cfext!==.swf set CFTYPE="swf"
-	if !cftype!=="" echo Seems you've added an invalid file. & echo: & goto moveconflicts
+	if !cftype!=="" echo Sorry, we don't allow stuff other than images and sounds converted to SWF. & echo: & goto moveconflicts
 
 	:: Set name
 	echo What do you want this to be called?
@@ -278,7 +278,7 @@ echo Zipping XML...
 :end
 endlocal
 if "%SUBSCRIPT%"=="" (
-	echo Closing...
+	echo Thank you for using our importing service. See you soon!
 	pause & exit
 ) else (
 	exit /b
