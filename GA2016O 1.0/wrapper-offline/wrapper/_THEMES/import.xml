@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme id="import" name="Imported Assets" cc_theme_id="import">
+<!--Sorry that there's no indenting, I couldn't get the import script to keep that.-->
+<!--Also, be sure to leave a blank line before <theme>, otherwise the import script breaks.-->
+<char id="327068788" name="the benson apparition" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+<tags>family,every,copy,of,wrapper,offline,is,_free,software,but,is,also,_cat:personalized</tags>
+</char>
+<sound id="allmyfriendsareasleep.mp3" name="All My Friends Are Asleep" subtype="bgmusic" duration="47856" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+<sound id="BGM009.mp3" name="BGM009" subtype="bgmusic" duration="102217" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+<sound id="casual.mp3" name="Casual" subtype="bgmusic" duration="180089" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+<sound id="FrancisGarciaDarkestTearsOfficialAudio.mp3" name="Darkest Tears" subtype="bgmusic" duration="135079" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+<sound id="FrancisGarciaWeWereMeantToFlyOfficialAudio.mp3" name="We Were Meant to Fly" subtype="bgmusic" duration="130089" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+<sound id="LesMangaASadMegamashupftVariousArtists.mp3" name="A Sad Megamashup" subtype="bgmusic" duration="379977" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+<sound id="LilDiabetesFuckYouTube.mp3" name="Fuck YouTube" subtype="bgmusic" duration="130089" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+<sound id="LilDiabetesMOM.mp3" name="Mom" subtype="bgmusic" duration="195083" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+<sound id="newgangbeezsong.mp3" name="Having Fun with the Chrome Music Lab Spectrogram" subtype="soundeffect" duration="39216" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+<sound id="nkrsRadioTearStreaksVocalized.mp3" name="Tear Streaks" subtype="bgmusic" duration="398343" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+<sound id="ReminiscenseHeartbrokenMaya.mp3" name="Reminiscense - Heartbroken Maya" subtype="bgmusic" duration="155377" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+<sound id="SadMachine.mp3" name="Sad Machine" subtype="bgmusic" duration="350774" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+<sound id="ShawnWasabiMarbleSodaOriginalSong.mp3" name="Marble Soda" subtype="bgmusic" duration="170005" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+<sound id="shelterroyalehighedition.mp3" name="Shelter (Ghibli Orchestra Edition)" subtype="bgmusic" duration="277865" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+<sound id="tennispassionnew.mp3" name="Goin' for It" subtype="bgmusic" duration="720143" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+<sound id="tennispassionnewshort.mp3" name="Goin' for It (Radio Edit)" subtype="bgmusic" duration="224052" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+<sound id="TheChainsmokersSickBoyONEDUORemix.mp3" name="Sick Boy (ONEDUO Remix)" subtype="bgmusic" duration="207987" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+<sound id="UnusedPhoenixWrightAceAttorney.mp3" name="BGM009 (SiIvaGunner Rip)" subtype="bgmusic" duration="87092" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+</theme>
