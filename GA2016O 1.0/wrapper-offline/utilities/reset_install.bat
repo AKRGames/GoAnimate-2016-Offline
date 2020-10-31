@@ -1,4 +1,4 @@
-title Wrapper: Offline Reset Script
+title Goanimate 2016: Offline Reset Script
 :: Resets any changed files to make a fresh install, meant for devs making a new release
 :: Author: benson#0411
 :: License: MIT
@@ -17,7 +17,7 @@ if not exist utilities\reset_install.bat ( goto error_location )
 if not exist wrapper ( goto error_location )
 goto noerror_location
 :error_location
-echo Doesn't seem like this script is in Wrapper: Offline's utilities folder.
+echo Doesn't seem like this script is in GoAnimate 2016: Offline's utilities folder.
 goto end
 :noerror_location
 
@@ -30,7 +30,7 @@ if "!SUBSCRIPT!"=="" (
 :point_insertion
 
 :: patch detection
-if exist "patch.jpg" echo why reset something patched && pause && exit
+if exist "patch.jpg" echo Why Reseting Somthing Pached?... && pause && exit
 
 :: Predefine variables
 set WRAPRESET=n
@@ -43,10 +43,13 @@ set ERROR_DELSAVE=n
 set ERROR_DELSILENTCMD=n
 
 :: Confirmation
-echo Are you sure you'd like to reset Wrapper: Offline?
+echo Are you sure you'd like to reset GoAnimate 2016: Offline?
 echo This will remove all saved videos and characters.
 echo You should only use this if you're a dev or one told you to do it.
+echo If that's the case, make sure to backup your saved videos and characters.
 echo This decision is permanent, and can't be reversed.
+echo If you're here out of curiosity, GET OUT NOW!!!
+echo However, the files other than the saved videos and characters stays the same.
 echo:
 echo Type y to reset Offline, and n to close this script.
 :resetconfirmretry
@@ -63,6 +66,9 @@ echo: && echo: && echo:
 color cf
 echo Are you ABSOLUTELY sure you wish to do this?
 echo You are entirely responsible for losing your videos.
+echo Now tell me, ARE YOU ABSOLUTELY FUCKING SURE YOU'RE GONNA DO THIS SHIT?!?
+echo THERE'S NO GOING BACK IF YOU DO!!!
+echo BACKUP YOUR SAVED VIDEOS AND CHARACTERS, NOT TO MENTION IMPORTED FILES!!!!
 echo:
 echo Type y to reset Offline, and n to close this script.
 :resetconfirmretry2
@@ -73,6 +79,7 @@ if /i '%resetchoice%'=='y' goto dothereset
 if /i '%resetchoice%'=='n' exit
 if /i '%resetchoice%'=='yes' goto dothereset
 if /i '%resetchoice%'=='no' exit
+if /i '%resetchoice%'=='with style' goto resetwithstyle
 goto resetconfirmretry2
 
 :dothereset
@@ -158,6 +165,105 @@ md utilities\import_these || set ERROR_DELIMPORT=y & goto skipimportreset
 :skipimportreset
 
 
+:resetwithstyle
+echo GOODBYE FUCKER
+PING -n 3 127.0.0.1>nul
+color cf
+KSSSSSSHH EEEEEEEERERRRRRRRRRN ZSUID9IF08UYEUJIZRZ90
+PING -n 3 127.0.0.1>nul
+set WRAPRESET=y
+echo DEATH OF GA2016O ACTIVATED
+PING -n 2 127.0.0.1>nul
+echo TIME TO FUCKING ANNIHILATE THE SAVED FOLDER
+PING -n 3 127.0.0.1>nul
+echo UYP8OYTIRCUTUIHYO8GTFRUDFTGIHYGOT
+PING -n 3 127.0.0.1>nul
+rd /q /s wrapper\_SAVED || set ERROR_DELSAVE=y
+md wrapper\_SAVED
+echo SAVED FOLDER SUCCESFULLY DELETED
+PING -n 3 127.0.0.1>nul
+echo TIME TO FUCKING ANNIHILATE THE CACHE FOLDER
+PING -n 3 127.0.0.1>nul
+echo dfffffffffffffffff
+PING -n 3 127.0.0.1>nul
+rd /q /s wrapper\_CACHÉ || set ERROR_DELCACHE=y
+md wrapper\_CACHÉ
+copy NUL "wrapper\_CACHÉ\_NO_REMÖVE"
+echo CACHER NOTRE RELATION, TOUS CA POUR UNE TCHOIE COCO
+PING -n 4 127.0.0.1>nul
+echo TIME TO FUCKING ANNIHILATE THE CHECKS FOLDER
+PING -n 3 127.0.0.1>nul
+echo PINGPONGPINGPONGPINGPONGPINGFDBHDINUS9JFYBHUSI9JU EEEEEEEEEEEEEEEEEEEEEEEE
+PING -n 3 127.0.0.1>nul
+rd /q /s utilities\checks || set ERROR_DELCHECKS=y
+md utilities\checks
+echo CHECKS FOLDER SUCCESFULLY GOT CHECKMATED
+PING -n 3 127.0.0.1>nul
+echo HOLY FUCK THIS IS A LONG ONE
+PING -n 2 127.0.0.1>nul
+echo TIME TO FUCKING ANNIHILATE THE SETTINGS
+PING -n 3 127.0.0.1>nul
+del /q /s utilities\config.bat || set ERROR_DELCONFIG=y
+echo :: Wrapper: Offline Config>> utilities\config.bat
+echo :: This file is modified by settings.bat. It is not organized, but comments for each setting have been added.>> utilities\config.bat
+echo :: You should be using settings.bat, and not touching this. Offline relies on this file remaining consistent, and it's easy to mess that up.>> utilities\config.bat
+echo:>> utilities\config.bat
+echo :: Opens this file in Notepad when run>> utilities\config.bat
+echo setlocal>> utilities\config.bat
+echo if "%%SUBSCRIPT%%"=="" ( pushd "%~dp0" ^& start notepad.exe config.bat ^& exit )>> utilities\config.bat
+echo endlocal>> utilities\config.bat
+echo:>> utilities\config.bat
+echo :: Shows exactly Offline is doing, and never clears the screen. Useful for development and troubleshooting. Default: n>> utilities\config.bat
+echo set VERBOSEWRAPPER=n>> utilities\config.bat
+echo:>> utilities\config.bat
+echo :: Won't check for dependencies (flash, node, etc) and goes straight to launching. Useful for speedy launching post-install. Default: n>> utilities\config.bat
+echo set SKIPCHECKDEPENDS=n>> utilities\config.bat
+echo:>> utilities\config.bat
+echo :: Won't install dependencies, regardless of check results. Overridden by SKIPCHECKDEPENDS. Mostly useless, why did I add this again? Default: n>> utilities\config.bat
+echo set SKIPDEPENDINSTALL=n>> utilities\config.bat
+echo:>> utilities\config.bat
+echo :: Opens Offline in an included copy of ungoogled-chromium. Allows continued use of Flash as modern browsers disable it. Default: y>> utilities\config.bat
+echo set INCLUDEDCHROMIUM=y>> utilities\config.bat
+echo:>> utilities\config.bat
+echo :: Opens INCLUDEDCHROMIUM in headless mode. Looks pretty nice. Overrides CUSTOMBROWSER and BROWSER_TYPE. Default: y>> utilities\config.bat
+echo set APPCHROMIUM=y>> utilities\config.bat
+echo:>> utilities\config.bat
+echo :: Opens Offline in a browser of the user's choice. Needs to be a path to a browser executable in quotes. Default: n>> utilities\config.bat
+echo set CUSTOMBROWSER=n>> utilities\config.bat
+echo:>> utilities\config.bat
+echo :: Lets the launcher know what browser framework is being used. Mostly used by the Flash installer. Accepts "chrome", "firefox", and "n". Default: n>> utilities\config.bat
+echo set BROWSER_TYPE=chrome>> utilities\config.bat
+echo:>> utilities\config.bat
+echo :: Runs through all of the scripts code, while never launching or installing anything. Useful for development. Default: n>> utilities\config.bat
+echo set DRYRUN=n>> utilities\config.bat
+echo:>> utilities\config.bat
+echo I'M NOT FUCKING DONE YET
+PING -n 3 127.0.0.1>nul
+rd /q /s utilities\ungoogled-chromium\the_profile || set ERROR_DELCHROME=y
+md utilities\ungoogled-chromium\the_profile
+robocopy utilities\ungoogled-chromium\the_profile_initial utilities\ungoogled-chromium\the_profile /E
+del /q /s utilities\SilentCMD.exe.config || set ERROR_DELSILENTCMD=y
+pushd server\store\3a981f5cb2739137\ || set ERROR_DELIMPORT=y & goto skipimportreset
+rd /q /s import || set ERROR_DELIMPORT=y & goto skipimportreset
+md import || set ERROR_DELIMPORT=y & goto skipimportreset
+pushd import
+echo ^<?xml version="1.0" encoding="utf-8"?^> >>theme.xml
+echo ^<theme id="import" name="Imported Assets" cc_theme_id="import"^> >>theme.xml
+echo ^<^^!--Sorry that there's no indenting, I couldn't get the import script to keep that.--^> >>theme.xml
+echo ^<^^!--Also, be sure to leave a blank line before ^<theme^>, otherwise the import script breaks.--^> >>theme.xml
+echo ^<char id="327068788" name="the benson apparition" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y"^> >>theme.xml
+echo ^<tags^>family,every,copy,of,wrapper,offline,is,_free,software,but,is,also,_cat:personalized^</tags^> >>theme.xml
+echo ^</char^> >>theme.xml
+echo:>>theme.xml
+echo ^</theme^> >>theme.xml
+popd
+utilities\7za.exe a "server\store\3a981f5cb2739137\import\import.zip" "server\store\3a981f5cb2739137\import\theme.xml" >nul || set ERROR_DELIMPORT=y & goto skipimportreset
+del /q /s utilities\import_these || set ERROR_DELIMPORT=y & goto skipimportreset
+md utilities\import_these || set ERROR_DELIMPORT=y & goto skipimportreset
+echo THANKS FOR SUPPORTING US ALL THESE YEARS NIGGA
+PING -n 3 127.0.0.1>nul
+exit
+
 echo Reset log:
 if !ERROR_DELSAVE!==n (
 	echo Saved movies/characters successfully deleted.
@@ -196,6 +302,7 @@ if !ERROR_DELIMPORT!==n (
 )
 echo:
 echo Remember to remove any leftover dev files too, assuming you're a dev.
+echo Farewell, I hope we meet again...
 
 :end
 if "%SUBSCRIPT%"=="" (
