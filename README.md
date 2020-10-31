@@ -7,7 +7,7 @@ Um, well, it has Buisness Friendly!
 ### But that's illegal!
 Fuck you, we are pirates and pirates are free.
 
-#### I'm telling Vyond!
+### I'm telling Vyond!
 **Don't you fucking dare.**
 
 Anyway, whatever themes we have, it's all *theirs*.
