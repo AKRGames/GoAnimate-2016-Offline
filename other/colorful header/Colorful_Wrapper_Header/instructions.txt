@@ -1,0 +1,9 @@
+just take the pages folder and move it into the wrapper-offline/wrapper folder.
+delete the original
+
+bonus instructions:
+take the swf files and put them in server/animation/414827163ad4eb60
+replace the old files
+
+
+sorry if this mod sucks i just made wrapper: shop
