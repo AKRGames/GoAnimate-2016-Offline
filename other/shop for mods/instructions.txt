@@ -1,0 +1,5 @@
+Shop for mods button
+
+HOW TO INSTALL:
+
+Just take the list.html and put it in wrapper-offline/wrapper/pages/html
