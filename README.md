@@ -12,4 +12,4 @@ Fuck you, we are pirates and pirates are free.
 
 Anyway, whatever themes we have, it's all *theirs*.
 
-Further information is inside this long repository
+Further information is inside this long repository.
