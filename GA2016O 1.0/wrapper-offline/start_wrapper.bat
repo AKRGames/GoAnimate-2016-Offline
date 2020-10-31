@@ -1,5 +1,5 @@
 ::   Launcher
-:: Author: Mapids#2658
+:: Author: MapidsFanAnimate2006#2658
 :: License: MIT
 set WRAPPER_VER=1.0.0
 title GoAnimate 2016: Offline v%WRAPPER_VER% [Initializing...]
@@ -50,9 +50,9 @@ if not exist "utilities\checks" md utilities\checks
 if not exist "utilities\checks\disclaimer.txt" (
 	echo DISCLAIMER
   echo:
-	echo GoAnimate 2016: Offline is a project to preserve the original GoAnimate flash-based themes.
+	echo GoAnimate 2016: Offline is a improvement of a project to preserve the original GoAnimate flash-based themes.
 	echo We believe they should be archived for others to use and learn about in the future.
-	echo All business themes have been Added, please use Vyond Studio if you wish to get those.
+	echo All business themes have been added, please use Vyond Studio if you wish to get those, but less laggy.
 	echo This is still unlawful use of copyrighted material, but ^(in our opinion^) morally justifiable use.
 	echo:
 	echo We are not affiliated in any form with Vyond or GoAnimate Inc. We generate no profit from this.
@@ -325,7 +325,7 @@ if !ADMINREQUIRED!==y (
 				if !NODEJS_DETECTED!==n (
 					echo GoAnimate 2016: Offline needs to install Flash and Node.js.
 				) else (
-					echo WGoAnimate 2016: Offline needs to install Flash.
+					echo GoAnimate 2016: Offline needs to install Flash.
 				)
 			) else (
 				echo Wrapper: Offline needs to install Node.js.
@@ -392,7 +392,7 @@ if !FLASH_DETECTED!==n (
 	)
 
 	:escape_browser_ask
-	echo To install Flash Player, Wrapper: Offline must kill any currently running web browsers.
+	echo To install Flash Player, GoAnimate 2016: Offline must kill any currently running web browsers.
 	echo Please make sure any work in your browser is saved before proceeding.
 	echo GoAnimate 2016: Offline will not continue installation until you press a key.
 	echo:
@@ -421,7 +421,7 @@ if !FLASH_DETECTED!==n (
 		echo Starting Flash for Chrome installer...
 		if not exist "utilities\installers\flash_windows_chromium.msi" (
 			echo ...erm. Bit of an issue there actually. The installer doesn't exist.
-			echo A normal copy of Wrapper: Offline should come with one.
+			echo A normal copy of GoAnimate 2016: Offline should come with one.
 			echo You may be able to find a copy on this website:
 			echo https://helpx.adobe.com/flash-player/kb/archived-flash-player-versions.html
 			echo Although Flash is needed, Offline will continue launching.
@@ -488,7 +488,7 @@ if !NODEJS_DETECTED!==n (
 	if !CPU_ARCHITECTURE!==what (
 		echo:
 		echo Well, this is a little embarassing.
-		echo Wrapper: Offline can't tell if you're on a 32-bit or 64-bit system.
+		echo GoAnimate 2016: Offline can't tell if you're on a 32-bit or 64-bit system.
 		echo Which means it doesn't know which version of Node.js to install...
 		echo:
 		echo If you have no idea what that means, press 1 to just try anyway.
@@ -536,7 +536,7 @@ if !HTTPSERVER_DETECTED!==n (
 			echo:
 			if not exist "utilities\installers\http-server-master" (
 				echo Well, we'd try that if the files existed.
-				echo A normal copy of Wrapper: Offline should come with them.
+				echo A normal copy of GoAnimate 2016: Offline should come with them.
 				echo You should be able to find a copy on this website:
 				echo https://www.npmjs.com/package/http-server
 				echo Although http-server is needed, Offline will try to install anything else it can.
@@ -566,7 +566,7 @@ if !HTTPSERVER_DETECTED!==n (
 		color cf
 		echo:
 		echo http-server is missing, but somehow Node.js has not been installed yet.
-		echo Seems either the install failed, or Wrapper: Offline managed to skip it.
+		echo Seems either the install failed, or GoAnimate 2016: Offline managed to skip it.
 		echo If installing directly from nodejs.org does not work, something is horribly wrong.
 		echo Please ask for help in the #support channel on Discord, or email me.
 		pause
@@ -586,7 +586,7 @@ if !HTTPSCERT_DETECTED!==n (
 	if not exist "server\the.crt" (
 		echo ...except it doesn't exist for some reason.
 		echo Wrapper: Offline requires this to run.
-		echo You should get a "the.crt" file from someone else, or redownload Wrapper: Offline.
+		echo You should get a "the.crt" file from someone else, or redownload GoAnimate 2016: Offline.
 		echo Offline has nothing left to do since it can't launch without the.crt, so it will close.
 		pause
 		exit
@@ -674,7 +674,7 @@ if !ADMINREQUIRED!==y (
 	exit
 )
 color 0f
-echo All dependencies now installed^^! Continuing with Wrapper: Offline boot.
+echo All dependencies now installed^^! Continuing with GoAnimate 2016: Offline boot.
 echo:
 
 :skip_dependency_install
@@ -777,12 +777,12 @@ if /i "!choice!"=="clear" goto wrapperstartedcls
 :: funni options
 if "!choice!"=="43" echo OH MY GOD. FOURTY THREE CHARS. NOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO & goto wrapperidle
 if /i "!choice!"=="benson" echo watch benson on youtube & goto wrapperidle
-if /i "!choice!"=="ford" echo what up son & goto wrapperidle
-if /i "!choice!"=="no" echo stahp & goto wrapperidle
+if /i "!choice!"=="ford" echo What Up Son & goto wrapperidle
+if /i "!choice!"=="no" echo Shatp & goto wrapperidle
 if /i "!choice!"=="yes" echo Alright. & goto wrapperidle
 if /i "!choice!"=="fuck off" goto youfuckoff
-if /i "!choice!"=="fuck you" echo No, fuck you. & goto wrapperidle
-if /i "!choice!"=="sex" echo that's fake & goto wrapperidle
+if /i "!choice!"=="fuck you" echo No, Fuck You. & goto wrapperidle
+if /i "!choice!"=="sex" echo That"s Fake & goto wrapperidle
 if /i "!choice!"=="watch benson on youtube" goto w_a_t_c_h
 if /i "!choice!"=="browser slayer" goto slayerstestaments
 if /i "!choice!"=="patch" goto patchtime
@@ -851,12 +851,12 @@ set JUSTIMPORTED=y
 goto wrapperstartedcls
 
 :youfuckoff
-echo You fuck off.
+echo You Fuck Off.
 set FUCKOFF=y
 goto wrapperidle
 
 :open_faq
-echo Opening the FAQ...
+echo Opening Rhe FAQ...
 start notepad.exe FAQ.txt
 goto wrapperidle
 
@@ -881,35 +881,35 @@ goto wrapperidle
 
 :patchtime
 echo:
-echo would you like to patch whoper online
-echo press y or n
+echo Would You Like 2 Pach GôNimate TwrentySixkctiin Online
+echo Press Y 0r N
 :patchtimeretry
 set /p PATCHCHOICE= Response:
 echo:
 if not '!patchchoice!'=='' set patchchoice=%patchchoice:~0,1%
-if /i "!patchchoice!"=="y" echo too bad B^) & goto wrapperidle
-if /i "!patchchoice!"=="n" echo good & goto wrapperidle
-echo yes or no question here && goto patchtimeretry
+if /i "!patchchoice!"=="y" echo Too Bad B^) & goto wrapperidle
+if /i "!patchchoice!"=="n" echo Good & goto wrapperidle
+echo Yes 0r No Question Here && goto patchtimeretry
 
 :sayarandom
 :: welcome to "inside jokes with no context" land
 set /a _rand=!RANDOM!*15/32767
-if !_rand!==0 echo stress level ^>0
-if !_rand!==1 echo Something random.
+if !_rand!==0 echo Stress Level ^>0
+if !_rand!==1 echo Something Random.
 if !_rand!==2 echo oisjdoiajfgmafvdsdg
-if !_rand!==3 echo my head is unscrewed & echo what do i need it for
-if !_rand!==4 echo when you're eating popcorn you're eating busted nuts
-if !_rand!==5 echo chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken 
-if !_rand!==6 echo when u nut so hard that ur roblox crashes
-if !_rand!==7 echo seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven
+if !_rand!==3 echo My Head Is Inxrewed & echo What Do I Needing0 It 4
+if !_rand!==4 echo When You"r Aeting PopCorn You"R Aeting Busted Nuts
+if !_rand!==5 echo Chicken Chicken Chicken Chicken Chicken Chicken Chicken Chicken Chicken Chicken Chicken Chicken
+if !_rand!==6 echo When Û Nut So Hard That Ür ROBLOX Crashes
+if !_rand!==7 echo Seven Seven Seven Seven Seven Seven Seven Seven Seven Seven Seven Seven Seven Seven Seven Seven
 if !_rand!==8 echo DONT ASK HOW I GOT IT OR YOU WILL BE BANNED FROM MY CHANNEL WITH NO SECOND CHANCES
-if !_rand!==9 echo everything you know is wrong & echo black is white up is down and short is long
-if !_rand!==10 echo It's a chekcpoint.
-if !_rand!==11 echo Another monday... & echo Another mind-numbing, run-of-the-mill monday... & echo ANOTHER MUNDANE, MORIBUND, HUMDRUM MONDAY!
-if !_rand!==12 echo try typing "with style" when exiting
-if !_rand!==13 echo elmo
-if !_rand!==14 echo gnorm gnat says: trans rights are human rights
-if !_rand!==15 echo wrapper inline
+if !_rand!==9 echo Everything You Know Is Wrong & echo Black Is White Up Is Down And Short Is Long
+if !_rand!==10 echo It's A Chexpoint.
+if !_rand!==11 echo Another %onday... & echo Another Mind-numbing, Run_Of_The_Mill Monday... & echo ANOTHER MUNDANE, MORIBUND, HUMDRUM MONDAY!
+if !_rand!==12 echo Try Typing "with style" When Exiting (Press 0)
+if !_rand!==13 echo ELMO
+if !_rand!==14 echo Gnorm Gnat Says: Trans Rights Art Hooman Rights
+if !_rand!==15 echo GoAnimate 2016 Inline
 goto wrapperidle
 
 :slayerstestaments
@@ -1010,13 +1010,13 @@ echo This window will now close.
 if !INCLUDEDCHROMIUM!==y (
 	echo You can close the web browser now.
 )
-echo Open start_wrapper.bat again to start W:O again.
+echo Open start_wrapper.bat again to start GA2016:O again.
 if !DRYRUN!==y ( echo Go wet your run next time. ) 
 pause & exit
 
 :exitwithstyle
 title GoAnimate 2016: Offline v!WRAPPER_VER! [Shutting down... WITH STYLE]
-echo SHUTTING DOWN THE WRAPPER OFFLINE
+echo SHUTTING DOWN THE GOANIMATE 2016 OFFLINE
 PING -n 3 127.0.0.1>nul
 color 9b
 echo BEWEWEWEWWW PSSHHHH KSHHHHHHHHHHHHHH
@@ -1024,24 +1024,24 @@ PING -n 3 127.0.0.1>nul
 TASKKILL /IM node.exe /F
 echo NODE DOT JS ANNIHILATED
 PING -n 3 127.0.0.1>nul
-echo TIME TO ELIMINATE WRAPPER OFFLINE
+echo TIME TO ELIMINATE GOANIMATE 2016 OFFLINE
 PING -n 3 127.0.0.1>nul
 echo BOBOOBOBMWBOMBOM SOUND EFFECTSSSSS
 PING -n 3 127.0.0.1>nul
-echo WRAPPER OFFLINE ALSO ANNIHILA
+echo GOANIMATE 2016 OFFLINE ALSO ANNIHILA
 PING -n 2 127.0.0.1>nul
 exit
 
 :patched
-title candypaper nointernet PATCHED edition
+title fleeenergize 2016 nointernet PATCHED edition
 color 43
 echo OH MY GODDDDD
 PING -n 3 127.0.0.1>nul
-echo SWEETSSHEET LACKOFINTERNS PATCHED DETECTED^^!^^!^^!^^!^^!^^!^^!^^!^^!^^!^^!^^!
+echo FLYENLIVEN 2016 LACKOFINTERNS PATCHED DETECTED^^!^^!^^!^^!^^!^^!^^!^^!^^!^^!^^!^^!
 PING -n 3 127.0.0.1>nul
-echo can never be use again...
+echo Can Never Be Use Again...
 PING -n 4 127.0.0.1>nul
-echo whoever put patch.jpeg back, you are grounded grounded gorrudjnmed for 6000
+echo Whoever Put Patch Jpeg Back, You Are Grounded Grounded Gorrudjnmed For 6000
 PING -n 3 127.0.0.1>nul
 :grr
 echo g r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r 
