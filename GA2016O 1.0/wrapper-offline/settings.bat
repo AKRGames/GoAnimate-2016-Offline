@@ -1,4 +1,4 @@
-title Wrapper: Offline Settings Script
+title GoAnimate 2016: Offline Settings Script
 :: Interactive config.bat changer
 :: Author: benson#0411
 :: License: MIT
@@ -16,7 +16,7 @@ if not exist utilities\config.bat ( goto error_location )
 if not exist start_wrapper.bat ( goto error_location )
 goto noerror_location
 :error_location
-echo Doesn't seem like this script is in the Wrapper: Offline folder.
+echo Doesn't seem like this script is in the GoAnimate 2016: Offline folder.
 goto end
 :noerror_location
 
