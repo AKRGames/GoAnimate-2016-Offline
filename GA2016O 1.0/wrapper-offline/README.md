@@ -39,6 +39,7 @@ Original Wrapper credits:
 | VisualPlugin | GoAnimate Wrapper    |
 | Imageny      | Custom/Modded Assets |
 | CLarramore   | Bug fixes            |
+
 No members of the original team are officially working on Offline, even if they have contributed. Some members of the original team have asked to not be given credit, and they have been removed.
 
 Developers will have (D) on their name, to show they are officially working on Wrapper: Offline. Everyone else has simply contributed something at some point.
