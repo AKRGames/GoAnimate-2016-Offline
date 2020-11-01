@@ -22,7 +22,7 @@ if not exist wrapper ( goto error_location )
 if not exist server ( goto error_location )
 goto noerror_location
 :error_location
-echo Doesn't seem like this script is in a Wrapper: Offline folder.
+echo Doesn't seem like this script is in a GoAnimate 2016: Offline folder.
 pause && exit
 :noerror_location
 
@@ -52,7 +52,7 @@ if not exist "utilities\checks\disclaimer.txt" (
   echo:
 	echo GoAnimate 2016: Offline is a improvement of a project to preserve the original GoAnimate flash-based themes.
 	echo We believe they should be archived for others to use and learn about in the future.
-	echo All business themes have been added, please use Vyond Studio if you wish to get those, but less laggy.
+	echo All business themes have been added, but use Vyond Studio if you wish to get those, but less laggy.
 	echo This is still unlawful use of copyrighted material, but ^(in our opinion^) morally justifiable use.
 	echo:
 	echo We are not affiliated in any form with Vyond or GoAnimate Inc. We generate no profit from this.
@@ -328,7 +328,7 @@ if !ADMINREQUIRED!==y (
 					echo GoAnimate 2016: Offline needs to install Flash.
 				)
 			) else (
-				echo Wrapper: Offline needs to install Node.js.
+				echo GoAnimate 2016: Offline needs to install Node.js.
 			)
 			echo To do this, it must be started with Admin rights.
 			echo:
@@ -481,7 +481,7 @@ if !NODEJS_DETECTED!==n (
 			goto after_nodejs_install
 		)
 		echo Proper Node.js installation doesn't seem possible to do automatically.
-		echo You can just keep clicking next until it finishes, and Wrapper: Offline will continue once it closes.
+		echo You can just keep clicking next until it finishes, and GoAnimate 2016: Offline will continue once it closes.
 		if !DRYRUN!==n ( msiexec /i "utilities\installers\node_windows_x32.msi" !INSTALL_FLAGS! )
 		goto nodejs_installed
 	)
@@ -585,7 +585,7 @@ if !HTTPSCERT_DETECTED!==n (
 	echo:
 	if not exist "server\the.crt" (
 		echo ...except it doesn't exist for some reason.
-		echo Wrapper: Offline requires this to run.
+		echo GoAnimate 2016: Offline requires this to run.
 		echo You should get a "the.crt" file from someone else, or redownload GoAnimate 2016: Offline.
 		echo Offline has nothing left to do since it can't launch without the.crt, so it will close.
 		pause
@@ -651,7 +651,7 @@ if !HTTPSCERT_DETECTED!==n (
 )
 :after_cert_install
 
-:: Alert user to restart GoAnimate without running as Admin
+:: Alert user to restart GoAnimate 2016 without running as Admin
 if !ADMINREQUIRED!==y (
 	color 20
 	if !VERBOSEWRAPPER!==n ( cls )
@@ -662,7 +662,7 @@ if !ADMINREQUIRED!==y (
 	echo please restart normally by double-clicking.
 	echo:
 	echo If you saw this from running normally,
-	echo Wrapper: Offline should continue normally after a restart.
+	echo GoAnimate 2016: Offline should continue normally after a restart.
 	echo:
 	if !DRYRUN!==y (
 		echo ...you enjoying the dry run experience? Skipping closing.
@@ -1049,7 +1049,7 @@ goto grr
 
 :configcopy
 if not exist utilities ( md utilities )
-echo :: Wrapper: Offline Config>> utilities\config.bat
+echo :: GoAnimate 2016: Offline Config>> utilities\config.bat
 echo :: This file is modified by settings.bat. It is not organized, but comments for each setting have been added.>> utilities\config.bat
 echo :: You should be using settings.bat, and not touching this. Offline relies on this file remaining consistent, and it's easy to mess that up.>> utilities\config.bat
 echo:>> utilities\config.bat
