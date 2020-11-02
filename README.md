@@ -15,4 +15,4 @@ Anyway, whatever themes we have, it's all *theirs*.
 Further information is inside this long repository.
 
 ## About the creator
-The creator of this improvement of Wrapper: Offline is MapidsFanAnimate2006#2658. He puts the first letter of each word capitalized, i guess.
+The creator of this improvement of Wrapper: Offline is MapidsFanAnimate2006#2658. He puts the first letter of each word capitalized, I guess.
