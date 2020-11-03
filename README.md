@@ -16,3 +16,9 @@ Further information is inside this long repository.
 
 ## About the creator
 The creator of this improvement of Wrapper: Offline is MapidsFanAnimate2006#2658. He puts the first letter of each word capitalized, I guess.
+
+## And if Chromium doesn't work...
+It's not my fault. Some of the files can't fit in here because the path is too large. You have to get the MEGA file link, which is outdated.
+
+## Discord Server
+discord.gg/uUpVgysjpX
