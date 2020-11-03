@@ -21,4 +21,4 @@ The creator of this improvement of Wrapper: Offline is MapidsFanAnimate2006#2658
 It's not my fault. Some of the files can't fit in here because the path is too large. You have to get the MEGA file link, which is outdated.
 
 ## Discord Server
-discord.gg/uUpVgysjpX
+https://discord.com/invite/uUpVgysjpX
