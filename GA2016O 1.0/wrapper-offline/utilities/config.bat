@@ -20,7 +20,7 @@ set SKIPDEPENDINSTALL=n
 set INCLUDEDCHROMIUM=y
 
 :: Opens INCLUDEDCHROMIUM in headless mode. Looks pretty nice. Overrides CUSTOMBROWSER and BROWSER_TYPE. Default: y
-set APPCHROMIUM=y
+set APPCHROMIUM=n
 
 :: Opens Offline in a browser of the user's choice. Needs to be a path to a browser executable in quotes. Default: n
 set CUSTOMBROWSER=n
