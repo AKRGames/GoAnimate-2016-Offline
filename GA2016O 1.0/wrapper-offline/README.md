@@ -10,7 +10,7 @@ If you want to import videos and characters from the original Wrapper or any oth
 For support, the first thing you should do is read through faq.txt, it most likely has what you want to know. If you can't find what you need, you can join the [Discord server](https://discord.gg/uUpVgysjpX). Joining the server is recommended, as there is a whole community to help you out. If you don't use Discord, you can email **MISSING** to get in contact with me directly, but don't expect nearly as quick of a response.
 
 ## Dependencies
-This program relies on Flash, Node.js and http-server to work properly. SilentCMD is also used to suppress all the extra logging noise you'd only need for troubleshooting and development. These all have been included with the project (utilities folder) to ensure full offline operation and will be installed if missing. The "wrapper" folder and http-server have their own dependencies, but they are included as well.
+This program relies on Flash, Node.js and HTTP-Server to work properly. SilentCMD is also used to suppress all the extra logging noise you'd only need for troubleshooting and development. These all have been included with the project (utilities folder) to ensure full offline operation and will be installed if missing. The "wrapper" folder and HTTP-Server have their own dependencies, but they are included as well.
 
 ## License
 Most of this project is free/libre software[1] under the MIT license. You have the freedom to run, change, and share this as much as you want.
@@ -18,7 +18,7 @@ This includes:
   - Files in the "wrapper" folder
   - Batch files made for 
   - Node.js
-  - http-server
+  - HTTP-Server
   - SilentCMD
   - Chromium Web Store
 
@@ -62,7 +62,7 @@ These are unaffiliated people that they haven't directly done anything for the p
 | Name               | Contribution                     |
 | ------------------ | -------------------------------- |
 | Vyond              | Creators of the themes we love   |
-| http-party         | Creators of http-server          |
+| http-party         | Creators of HTTP-Server          |
 | Stephan Brenner    | Creator of SilentCMD             |
 | vocatus            | Some of TronScript's batch code  |
 | ss64.com           | Incredible CMD info resource     |
