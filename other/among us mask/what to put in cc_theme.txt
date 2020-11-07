@@ -1,3 +1,0 @@
-	<component type="facedecoration" id="099" path="099" name="099" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-		<state id="default" filename="default.swf"/>
-	</component>
