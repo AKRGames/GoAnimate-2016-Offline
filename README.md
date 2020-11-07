@@ -2,7 +2,7 @@
 Improvement of a major improvement of a GoAPI server wrapper designed to interact with Vyond's Legacy Video Maker.
 
 ## What stands out to the original Wrapper: Offline
-Um, well, it has Buisness Friendly!
+Um, well, it has Buisness Friendly (and updated branding)!
 
 ### But that's illegal!
 Fuck you, we are pirates and pirates are free.
