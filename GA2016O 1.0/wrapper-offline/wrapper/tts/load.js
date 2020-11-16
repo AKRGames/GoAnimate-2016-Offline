@@ -88,24 +88,6 @@ function processVoice(voiceName, text) {
 				});
 				break;
 			}
-			case 'voicery': {
-				var q = qs.encode({
-					text: text,
-					speaker: voice.arg,
-					ssml: text.includes('<'),
-					//style: 'default',
-				});
-				https.get({
-					host: 'www.voicery.com',
-					path: `/api/generate?${q}`,
-				}, r => {
-					var buffers = [];
-					r.on('data', d => buffers.push(d));
-					r.on('end', () => res(Buffer.concat(buffers)));
-					r.on('error', rej);
-				});
-				break;
-			}
 			case 'watson': {
 				var q = qs.encode({
 					text: text,
