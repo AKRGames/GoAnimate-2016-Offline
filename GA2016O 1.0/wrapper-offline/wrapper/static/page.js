@@ -24,7 +24,7 @@ module.exports = function (req, res, url) {
 	var attrs, params, title;
 	switch (url.pathname) {
 		case '/cc': {
-			title = 'Character Creator';
+			title = 'The character creator from GoAnimate 2016: Offline - Create an unoriginal character in seconds!';
 			attrs = {
 				data: process.env.SWF_URL + '/cc.swf', // data: 'cc.swf',
 				type: 'application/x-shockwave-flash', id: 'char_creator', width: '100%', height: '100%',
@@ -45,7 +45,7 @@ module.exports = function (req, res, url) {
 		case '/go_full': {
 			let presave = query.movieId && query.movieId.startsWith('m') ? query.movieId :
 				`m-${fUtil[query.noAutosave ? 'getNextFileId' : 'fillNextFileId']('movie-', '.xml')}`;
-			title = 'Video Editor';
+			title = 'The video maker from GoAnimate 2016: Offline - Make an unoriginal video in minutes!';
 			attrs = {
 				data: process.env.SWF_URL + '/go_full.swf',
 				type: 'application/x-shockwave-flash', width: '100%', height: '100%',
@@ -55,7 +55,7 @@ module.exports = function (req, res, url) {
 					'apiserver': '/', 'storePath': process.env.STORE_URL + '/<store>', 'isEmbed': 1, 'ctc': 'go',
 					'ut': 60, 'bs': 'default', 'appCode': 'go', 'page': '', 'siteId': 'go', 'lid': 13, 'isLogin': 'Y', 'retut': 1,
 					'clientThemePath': process.env.CLIENT_URL + '/<client_theme>', 'themeId': 'business', 'tlang': 'en_US',
-					'presaveId': presave, 'goteam_draft_only': 1, 'isWide': 1, 'nextUrl': '/pages/html/list.html',
+					'presaveId': presave, 'goteam_draft_only': 1, 'isWide': 0, 'nextUrl': '/pages/html/list.html',
 				},
 				allowScriptAccess: 'always',
 			};
@@ -64,7 +64,7 @@ module.exports = function (req, res, url) {
 		}
 
 		case '/player': {
-			title = 'Video Player';
+			title = 'The video player from GoAnimate 2016: Offline - Play your masterpeice!';
 			attrs = {
 				data: process.env.SWF_URL + '/player.swf',
 				type: 'application/x-shockwave-flash', width: '100%', height: '100%',
@@ -72,10 +72,9 @@ module.exports = function (req, res, url) {
 			params = {
 				flashvars: {
 					'apiserver': '/', 'storePath': process.env.STORE_URL + '/<store>', 'ut': 60,
-					'autostart': 1, 'isWide': 1, 'clientThemePath': process.env.CLIENT_URL + '/<client_theme>',
+					'autostart': 1, 'isWide': 0, 'clientThemePath': process.env.CLIENT_URL + '/<client_theme>',
 				},
 				allowScriptAccess: 'always',
-				allowFullScreen: 'true',
 			};
 			break;
 		}
