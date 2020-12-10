@@ -47,7 +47,7 @@ GoAnimate 2016: Offline credits:
 | Name            | Contribution                     |
 | --------------- | -------------------------------- |
 | Mapids (D)      | GoAnimate 2016: Offline          |
-| Benson          | (the original) Wrapper Offline   |
+| Benson          | (the original) Wrapper: Offline   |
 | NathanTDA       | Logo                             |
 | Blukas/GoTube   | Import idea, Mega Comedy World 2 |
 | VisualPlugin    | Text to speech voices            |
