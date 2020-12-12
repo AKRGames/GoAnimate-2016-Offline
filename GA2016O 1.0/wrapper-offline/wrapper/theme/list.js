@@ -11,6 +11,7 @@
 "chowder"
 "christmas"
 "common"
+"CommLib"
 "custom"
 "domo"
 "fullenergy"

@@ -4,20 +4,31 @@
 		"el": "Greek",
 		"fi": "Suomi",
 		"ar": "Arabic",
+		"ba": "Basque",
+		"cz": "Czech",		
 		"de": "German",
 		"fr": "French",
+		"fp": "Filipino",
 		"da": "Danish",
 		"en": "English",
 		"es": "Spanish",
 		"ca": "Catalan",
+		"ic": "Icelandic",				
+		"hi": "Hindi",		
+		"in": "Indonesian",		
 		"ru": "Russian",
 		"it": "Italian",
 		"tr": "Turkish",
 		"zh": "Chinese",
 		"ja": "Japanese",
+		"ge": "Gaelic",		
+		"ga": "Gaeilge",				
+		"sl": "Slovak",		
 		"ro": "Romanian",
+		"hu": "Hungarian",		
 		"no": "Norwegian",
 		"va": "Valencian",
+		"uk": "Ukrainian",		
 		"pt": "Portuguese",
 		"eo": "Esparanto",
 		"ga": "Galician",
@@ -316,6 +327,14 @@
             "arg": "/english/american/29-male-voice-joey.html",
             "desc": "Joey (Old)"
         },
+        "salli_ivona": {
+            "country": "US",
+            "language": "en",
+            "gender": "F",
+            "source": "ivona",
+            "arg": "/english/american/2-girl-s-voice-sally.html",
+            "desc": "Salli (Ivona)"
+        },			
         "brian_old": {
             "country": "GB",
             "language": "en",
@@ -372,6 +391,14 @@
             "arg": "/turkish/20-kadın-sesi-filiz.html",
             "desc": "Filiz"
         },
+		"filiz_ivona": {
+            "country": "TR",
+            "language": "tr",
+            "gender": "F",
+            "source": "ivona",
+            "arg": "/turkish/20-kadın-sesi-filiz.html",
+            "desc": "Filiz (Ivona)"
+        },				
 		"ella": {
 			"country": "US",
 			"language": "en",
@@ -684,6 +711,14 @@
 			"arg": "olivia22k",
 			"desc": "Olivia (Acapela)"
 		},
+		"oliviaV3": {
+			"country": "US",
+			"language": "en",
+			"gender": "F",
+			"source": "watson",
+			"arg": "en-US_OliviaV3Voice",
+			"desc": "OlivaV3 (Watson)"
+		},		
 		"tyler": {
 			"country": "AU",
 			"language": "en",
@@ -844,6 +879,14 @@
 			"arg": "Nicole",
 			"desc": "Nicole"
 		},
+		"nicole_ivona": {
+			"country": "AU",
+			"language": "en",
+			"gender": "F",
+			"source": "ivona",
+			"arg": "/english/australian/43-female-voice-nicole.html",
+			"desc": "Nicole (Ivona)"
+		},
 		"russell": {
 			"country": "AU",
 			"language": "en",
@@ -852,6 +895,14 @@
 			"arg": "Russell",
 			"desc": "Russell"
 		},
+        "russell_ivona": {
+            "country": "US",
+            "language": "en",
+            "gender": "M",
+            "source": "ivona",
+            "arg": "/english/australian/48-male-voice-russell.html",
+            "desc": "Russell (Ivona)"
+        },
 		"raveena": {
 			"country": "IN",
 			"language": "en",
@@ -868,6 +919,78 @@
 			"arg": "Marlene",
 			"desc": "Marlene"
 		},
+		"marlene_ivona": {
+			"country": "DE",
+			"language": "de",
+			"gender": "F",
+			"source": "ivona",
+			"arg": "/german/39-frauenstimme-marlene.html",
+			"desc": "Marlene (Ivona)"
+		},		
+		"andreas": {
+			"country": "DE",
+			"language": "de",
+			"gender": "M",
+			"source": "acapela",
+			"arg": "andreas22k",
+			"desc": "Andreas"
+		},			
+		"claudiasmile": {
+			"country": "DE",
+			"language": "de",
+			"gender": "F",
+			"source": "acapela",
+			"arg": "claudiasmile22k",
+			"desc": "Claudia (Smiling)"
+		},	
+		"claudia": {
+			"country": "DE",
+			"language": "de",
+			"gender": "F",
+			"source": "acapela",
+			"arg": "claudia22k",
+			"desc": "Claudia"
+		},		
+		"jonas": {
+			"country": "DE",
+			"language": "de",
+			"gender": "M",
+			"source": "acapela",
+			"arg": "jonas22k",
+			"desc": "Jonas"
+		},		
+		"julia": {
+			"country": "DE",
+			"language": "de",
+			"gender": "F",
+			"source": "acapela",
+			"arg": "julia22k",
+			"desc": "Julia"
+		},	
+		"klaus": {
+			"country": "DE",
+			"language": "de",
+			"gender": "M",
+			"source": "acapela",
+			"arg": "klaus22k",
+			"desc": "Klaus"
+		},	
+		"lea": {
+			"country": "DE",
+			"language": "de",
+			"gender": "F",
+			"source": "acapela",
+			"arg": "lea22k",
+			"desc": "Lea"
+		},	
+		"sarah": {
+			"country": "DE",
+			"language": "de",
+			"gender": "F",
+			"source": "acapela",
+			"arg": "sarah22k",
+			"desc": "Sarah"
+		},			
 		"hans": {
 			"country": "DE",
 			"language": "de",
@@ -875,6 +998,38 @@
 			"source": "polly",
 			"arg": "Hans",
 			"desc": "Hans"
+			},
+		"hans_ivona": {
+			"country": "DE",
+			"language": "de",
+			"gender": "M",
+			"source": "ivona",
+			"arg": "/german/24-mannerstimme-hans.html",
+			"desc": "Hans"
+		},		
+		"karl": {
+			"country": "IC",
+			"language": "ic",
+			"gender": "M",
+			"source": "polly",
+			"arg": "Karl",
+			"desc": "Karl"
+		},	
+		"karl_ivona": {
+			"country": "IC",
+			"language": "ic",
+			"gender": "M",
+			"source": "ivona",
+			"arg": "/icelandic/31-male-rodd-karl.html",
+			"desc": "Karl (Ivona)"
+		},			
+		"dora": {
+			"country": "IC",
+			"language": "ic",
+			"gender": "M",
+			"source": "polly",
+			"arg": "Dora",
+			"desc": "Dora"
 		},
 		"gwyneth": {
 			"country": "GB",
@@ -908,6 +1063,62 @@
 			"arg": "Conchita",
 			"desc": "Conchita"
 		},
+		"conchita_ivona": {
+			"country": "ES",
+			"language": "es",
+			"gender": "F",
+			"source": "ivona",
+			"arg": "/spanish/castilian/14-voz-femenina-conchita.html",
+			"desc": "Conchita (Ivona)"
+		},		
+        "ana_cercproc": {
+            "country": "ES",
+            "language": "es",
+            "gender": "M",
+            "source": "cereproc",
+            "arg": "Ana",
+            "desc": "Ana (Cereproc)"
+        },			
+        "sara": {
+            "country": "ES",
+            "language": "es",
+            "gender": "F",
+            "source": "cereproc",
+            "arg": "Sara",
+            "desc": "Sara"
+        },					
+		"sofia": {
+			"country": "ES",
+			"language": "es",
+			"gender": "F",
+			"source": "watson",
+			"arg": "es-LA_SofiaVoice",
+			"desc": "Sofia (LA)"
+		},
+		"sofiav3": {
+			"country": "ES",
+			"language": "es",
+			"gender": "F",
+			"source": "watson",
+			"arg": "es-LA_SofiaV3Voice",
+			"desc": "SofiaV3 (LA)"
+		},	
+		"sofiaus": {
+			"country": "US",
+			"language": "es",
+			"gender": "F",
+			"source": "watson",
+			"arg": "es-US_SofiaVoice",
+			"desc": "Sofia (US)"
+		},	
+		"sofiav3us": {
+			"country": "US",
+			"language": "es",
+			"gender": "F",
+			"source": "watson",
+			"arg": "es-US_SofiaV3Voice",
+			"desc": "SofiaV3 (US)"
+		},
 		"enrique_polly": {
 			"country": "ES",
 			"language": "es",
@@ -916,6 +1127,14 @@
 			"arg": "Enrique",
 			"desc": "Enrique (Polly)"
 		},
+        "enrique_ivona": {
+            "country": "US",
+            "language": "en",
+            "gender": "F",
+            "source": "ivona",
+            "arg": "/spanish/castilian/18-voz-masculina-enrique.html",
+            "desc": "Enrique (Ivona)"
+        },
 		"penélope": {
 			"country": "US",
 			"language": "es",
@@ -940,6 +1159,14 @@
 			"arg": "Carla",
 			"desc": "Carla"
 		},
+		"carla_ivona": {
+			"country": "IT",
+			"language": "it",
+			"gender": "F",
+			"source": "ivona",
+			"arg": "/italian/8-voce-femminile-carla.html",
+			"desc": "Carla (Ivona)"
+		},
 		"giorgio": {
 			"country": "IT",
 			"language": "it",
@@ -947,6 +1174,14 @@
 			"source": "polly",
 			"arg": "Giorgio",
 			"desc": "Giorgio"
+		},
+		"giorgio_ivona": {
+			"country": "IT",
+			"language": "it",
+			"gender": "M",
+			"source": "ivona",
+			"arg": "/italian/22-voce-maschile-giorgio.html",
+			"desc": "Giorgio (Ivona)"
 		},
 		"maxim": {
 			"country": "RU",
@@ -963,6 +1198,22 @@
 			"source": "polly",
 			"arg": "Tatyana",
 			"desc": "Tatyana"
+		},
+		"tatyana_ivona": {
+			"country": "RU",
+			"language": "ru",
+			"gender": "F",
+			"source": "ivona",
+			"arg": "/russian/50-zhenskiy-golos-tatyana.html",
+			"desc": "Tatyana (Ivona)"
+		},		
+		"alyona": {
+			"country": "RU",
+			"language": "ru",
+			"gender": "F",
+			"source": "acapela",
+			"arg": "alyona22k",
+			"desc": "Alyona"
 		},
 		"allison_cepstral": {
 			"country": "US",
@@ -1131,6 +1382,21 @@
 			"source": "cepstral",
 			"arg": "Emily",
 			"desc": "Emily"
+		"emilyv3": {
+			"country": "US",
+			"language": "en",
+			"gender": "F",
+			"source": "watson",
+			"arg": "en-US_EmilyV3Voice",
+			"desc": "EmilyV3 (Watson)"
+		},
+		"henryv3": {
+			"country": "US",
+			"language": "en",
+			"gender": "M",
+			"source": "watson",
+			"arg": "en-US_HenryV3Voice",
+			"desc": "HenryV3"
 		},
 		"linda_cepstral": {
 			"country": "US",
@@ -1204,6 +1470,22 @@
 			"arg": "Vittoria",
 			"desc": "Vittoria"
 		},
+		"francesca": {
+			"country": "IT",
+			"language": "it",
+			"gender": "F",
+			"source": "watson",
+			"arg": "it-IT_FrancescaVoice",
+			"desc": "Francesca"
+		},	
+		"francescaV3": {
+			"country": "IT",
+			"language": "it",
+			"gender": "F",
+			"source": "watson",
+			"arg": "it-IT_FrancescaV3Voice",
+			"desc": "FrancescaV3"
+		},
 		"katrin_cepstral": {
 			"country": "DE",
 			"language": "de",
@@ -1219,6 +1501,22 @@
 			"source": "cepstral",
 			"arg": "Matthias",
 			"desc": "Matthias"
+		},
+		"birgit": {
+			"country": "DE",
+			"language": "de",
+			"gender": "F",
+			"source": "watson",
+			"arg": "de-DE_BirgitVoice",
+			"desc": "Birgit"
+		},
+		"birgitv3": {
+			"country": "DE",
+			"language": "de",
+			"gender": "F",
+			"source": "watson",
+			"arg": "de-DE_BirgitV3Voice",
+			"desc": "BirgitV3"
 		},
 		"dieter": {
 			"country": "DE",
@@ -1236,6 +1534,14 @@
 			"arg": "de-DE-DieterV3Voice",
 			"desc": "DieterV3"
 		},
+		"erikav3": {
+			"country": "DE",
+			"language": "de",
+			"gender": "F",
+			"source": "watson",
+			"arg": "de-DE_ErikaV3Voice",
+			"desc": "ErikaV3"
+		},
 		"enrique_watson": {
 			"country": "ES",
 			"language": "es",
@@ -1244,6 +1550,22 @@
 			"arg": "es-ES_EnriqueVoice",
 			"desc": "Enrique (Watson)"
 		},
+		"laura_watson": {
+			"country": "ES",
+			"language": "es",
+			"gender": "M",
+			"source": "cereproc",
+			"arg": "es-ES_LauraVoice",
+			"desc": "Laura (Watson)"
+		},
+		"laurav3_watson": {
+			"country": "ES",
+			"language": "es",
+			"gender": "M",
+			"source": "cereproc",
+			"arg": "es-ES_LauraV3Voice",
+			"desc": "LauraV3 (Watson)"
+		},		
 		"enriquev3_watson": {
 			"country": "ES",
 			"language": "es",
@@ -1259,6 +1581,14 @@
 			"source": "watson",
 			"arg": "fr-FR_ReneeVoice",
 			"desc": "Renee"
+		},
+		"nicolasV3": {
+			"country": "FR",
+			"language": "fr",
+			"gender": "M",
+			"source": "watson",
+			"arg": "fr-FR_NicolasV3Voice",
+			"desc": "NicolasV3"
 		},
 		"reneev3": {
 			"country": "FR",
@@ -1312,6 +1642,26 @@
 			"source": "vocalware",
 			"desc": "Laila"
 		},
+		"laila": {
+			"country": "AR",
+			"language": "ar",
+			"gender": "F",
+			"arg": [
+				2,
+				27,
+				2
+			],
+			"source": "vocalware",
+			"desc": "Laila"
+		},
+		"omar": {
+			"country": "AR",
+			"language": "ar",
+			"gender": "M",
+			"source": "watson",
+			"arg": "ar-AR_OmarVoice",
+			"desc": "Omar"
+		},
 		"tarik": {
 			"country": "SA",
 			"language": "ar",
@@ -1324,6 +1674,30 @@
 			"source": "vocalware",
 			"desc": "Tarik"
 		},
+		"amina": {
+			"country": "AR",
+			"language": "ar",
+			"gender": "M",
+			"arg": [
+				7,
+				27,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Amina"
+		},		
+		"jamal": {
+			"country": "AR",
+			"language": "ar",
+			"gender": "M",
+			"arg": [
+				7,
+				27,
+				2
+			],
+			"source": "vocalware",
+			"desc": "Jamal"
+		},
 		"maged": {
 			"country": "SA",
 			"language": "ar",
@@ -1335,6 +1709,38 @@
 			],
 			"source": "vocalware",
 			"desc": "Maged"
+		},
+		"leila": {
+			"country": "AR",
+			"language": "ar",
+			"gender": "F",
+			"source": "acapela",
+			"arg": "leila22k",
+			"desc": "Leila"
+		},
+		"mehdi": {
+			"country": "AR",
+			"language": "ar",
+			"gender": "M",
+			"source": "acapela",
+			"arg": "mehdi22k",
+			"desc": "Mehdi"
+		},	
+		"nizararabic": {
+			"country": "AR",
+			"language": "ar",
+			"gender": "M",
+			"source": "acapela",
+			"arg": "nizar22k",
+			"desc": "Nizar (Arabic)"
+		},	
+		"salma": {
+			"country": "AR",
+			"language": "ar",
+			"gender": "M",
+			"source": "acapela",
+			"arg": "salma22k",
+			"desc": "Salma"
 		},
 		"empar": {
 			"country": "ES",
@@ -1360,6 +1766,42 @@
 			"source": "vocalware",
 			"desc": "Jordi"
 		},
+		"eszter": {
+			"country": "HU",
+			"language": "hu",
+			"gender": "F",
+			"arg": [
+				4,
+				29,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Eszter"
+		},		
+		"flora": {
+			"country": "HU",
+			"language": "hu",
+			"gender": "F",
+			"arg": [
+				7,
+				29,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Flora"
+		},	
+		"laszlo": {
+			"country": "HU",
+			"language": "hu",
+			"gender": "M",
+			"arg": [
+				7,
+				29,
+				2
+			],
+			"source": "vocalware",
+			"desc": "Laszlo"
+		},
 		"montserrat": {
 			"country": "ES",
 			"language": "ca",
@@ -1371,6 +1813,34 @@
 			],
 			"source": "vocalware",
 			"desc": "Montserrat"
+		},
+		"nuria": {
+			"country": "ES",
+			"language": "ca",
+			"gender": "F",
+			"arg": [
+				4,
+				5,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Nuria"
+		},	
+		"rita": {
+			"country": "ES",
+			"language": "ca",
+			"gender": "M",
+			"source": "cereproc",
+			"arg": "Rita",
+			"desc": "Rita"
+		},		
+		"laia": {
+			"country": "ES",
+			"language": "ca",
+			"gender": "F",
+			"source": "acapela",
+			"arg": "laia22k",
+			"desc": "Laia"
 		},
 		"rosa": {
 			"country": "MX",
@@ -1408,6 +1878,18 @@
 			"source": "vocalware",
 			"desc": "Linlin"
 		},
+		"yan": {
+			"country": "CN",
+			"language": "zh",
+			"gender": "F",
+			"arg": [
+				7,
+				10,
+				3
+			],
+			"source": "vocalware",
+			"desc": "Yan"
+		},
 		"lisheng": {
 			"country": "CN",
 			"language": "zh",
@@ -1419,6 +1901,66 @@
 			],
 			"source": "vocalware",
 			"desc": "Lisheng"
+		},
+		"sin-ji": {
+			"country": "CN",
+			"language": "zh",
+			"gender": "F",
+			"arg": [
+				4,
+				10,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Sin-Ji"
+		},	
+		"ting-ting": {
+			"country": "CN",
+			"language": "zh",
+			"gender": "F",
+			"arg": [
+				4,
+				10,
+				4
+			],
+			"source": "vocalware",
+			"desc": "Ting-Ting"
+		},
+		"ya-ling": {
+			"country": "CN",
+			"language": "zh",
+			"gender": "F",
+			"arg": [
+				4,
+				10,
+				2
+			],
+			"source": "vocalware",
+			"desc": "Ya-Ling"
+		},		
+		"dagny": {
+			"country": "DK",
+			"language": "da",
+			"gender": "F",
+			"arg": [
+				7,
+				19,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Dagny"
+		},	
+		"erik": {
+			"country": "DK",
+			"language": "da",
+			"gender": "M",
+			"arg": [
+				7,
+				19,
+				2
+			],
+			"source": "vocalware",
+			"desc": "Erik"
 		},
 		"frida": {
 			"country": "DK",
@@ -1432,6 +1974,66 @@
 			"source": "vocalware",
 			"desc": "Frida"
 		},
+		"ida": {
+			"country": "DK",
+			"language": "da",
+			"gender": "F",
+			"arg": [
+				4,
+				19,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Ida"
+		},				
+		"mads": {
+			"country": "DK",
+			"language": "da",
+			"gender": "M",
+			"source": "polly",
+			"arg": "Mads",
+			"desc": "Mads"
+		},
+		"mette": {
+			"country": "DK",
+			"language": "da",
+			"gender": "F",
+			"source": "acapela",
+			"arg": "mette22k",
+			"desc": "Mette"
+		},		
+		"rasmus": {
+			"country": "DK",
+			"language": "da",
+			"gender": "M",
+			"source": "acapela",
+			"arg": "rasmus22k",
+			"desc": "Rasmus"
+		},				
+		"mads_ivona": {
+			"country": "DK",
+			"language": "da",
+			"gender": "M",
+			"source": "ivona",
+			"arg": "/danish/37-mandlig-stemme-mads.html",
+			"desc": "Mads (Ivona)"
+		},		
+		"naja": {
+			"country": "DK",
+			"language": "da",
+			"gender": "F",
+			"source": "polly",
+			"arg": "Naja",
+			"desc": "Naja"
+		},	
+		"naja_ivona": {
+			"country": "DK",
+			"language": "da",
+			"gender": "F",
+			"source": "ivona",
+			"arg": "/42-kvinde-stemme-naja.html",
+			"desc": "Naja (Ivona)"
+		},
 		"magnus": {
 			"country": "DK",
 			"language": "da",
@@ -1443,6 +2045,122 @@
 			],
 			"source": "vocalware",
 			"desc": "Magnus"
+		},
+		"claire": {
+			"country": "NL",
+			"language": "nl",
+			"gender": "F",
+			"arg": [
+				7,
+				11,
+				2
+			],
+			"source": "vocalware",
+			"desc": "Claire (Oddcast)"
+		},	
+		"jeroen": {
+			"country": "NL",
+			"language": "nl",
+			"gender": "M",
+			"source": "acapela",
+			"arg": "jeroen22k",
+			"desc": "Jeroen"
+		},	
+		"jeroenhappy": {
+			"country": "NL",
+			"language": "nl",
+			"gender": "M",
+			"source": "acapela",
+			"arg": "jeroenhappy22k",
+			"desc": "Jeroen (Happy)"
+		},	
+		"jeroensad": {
+			"country": "NL",
+			"language": "nl",
+			"gender": "M",
+			"source": "acapela",
+			"arg": "jeroensad22k",
+			"desc": "Jeroen (Sad)"
+		},	
+		"sofie": {
+			"country": "NL",
+			"language": "nl",
+			"gender": "F",
+			"source": "acapela",
+			"arg": "sofie22k",
+			"desc": "Sofie"
+		},
+		"zoe": {
+			"country": "NL",
+			"language": "nl",
+			"gender": "F",
+			"source": "acapela",
+			"arg": "zoe22k",
+			"desc": "Zoe"
+		},		
+		"emma_watson": {
+			"country": "NL",
+			"language": "nl",
+			"gender": "F",
+			"source": "watson",
+			"arg": "nl-NL_EmmaVoice",
+			"desc": "Emma (Watson)"
+		},	
+		"liam_watson": {
+			"country": "NL",
+			"language": "nl",
+			"gender": "F",
+			"source": "watson",
+			"arg": "nl-NL_LiamVoice",
+			"desc": "Liam (Watson)"
+		},			
+		"dirk": {
+			"country": "NL",
+			"language": "nl",
+			"gender": "M",
+			"arg": [
+				4,
+				11,
+				2
+			],
+			"source": "vocalware",
+			"desc": "Dirk"
+		},			
+		"ellen": {
+			"country": "NL",
+			"language": "nl",
+			"gender": "F",
+			"arg": [
+				4,
+				11,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Ellen"
+		},		
+		"famke": {
+			"country": "NL",
+			"language": "nl",
+			"gender": "F",
+			"arg": [
+				7,
+				11,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Famke"
+		},		
+		"laura": {
+			"country": "NL",
+			"language": "nl",
+			"gender": "F",
+			"arg": [
+				4,
+				11,
+				3
+			],
+			"source": "vocalware",
+			"desc": "Laura (Oddcast)"
 		},
 		"saskia": {
 			"country": "NL",
@@ -1456,6 +2174,86 @@
 			"source": "vocalware",
 			"desc": "Saskia"
 		},
+		"lotte": {
+			"country": "NL",
+			"language": "nl",
+			"gender": "F",
+			"source": "polly",
+			"arg": "Lotte",
+			"desc": "Lotte"
+		},		
+		"lotte_ivona": {
+			"country": "NL",
+			"language": "nl",
+			"gender": "F",
+			"source": "ivona",
+			"arg": "/dutch/36-vrouwelijke-stem-lotte.html",
+			"desc": "Lotte (Ivona)"
+		},			
+		"daan": {
+			"country": "NL",
+			"language": "nl",
+			"gender": "M",
+			"source": "acapela",
+			"arg": "daan22k",
+			"desc": "Daan"
+		},		
+		"femke": {
+			"country": "NL",
+			"language": "nl",
+			"gender": "F",
+			"source": "acapela",
+			"arg": "femke22k",
+			"desc": "Femke"
+		},	
+		"jasmijn": {
+			"country": "NL",
+			"language": "nl",
+			"gender": "F",
+			"source": "acapela",
+			"arg": "jasmijn22k",
+			"desc": "Jasmijn"
+		},			
+		"max": {
+			"country": "NL",
+			"language": "nl",
+			"gender": "F",
+			"source": "acapela",
+			"arg": "max22k",
+			"desc": "Max"
+		},		
+		"merel": {
+			"country": "NL",
+			"language": "nl",
+			"gender": "F",
+			"source": "acapela",
+			"arg": "merel22k",
+			"desc": "Merel"
+		},	
+		"thijs": {
+			"country": "NL",
+			"language": "nl",
+			"gender": "F",
+			"source": "acapela",
+			"arg": "thijs22k",
+			"desc": "Thijs"
+		},			
+		"ruben": {
+			"country": "NL",
+			"language": "nl",
+			"gender": "M",
+			"source": "polly",
+			"arg": "Ruben",
+			"desc": "Ruben"
+		},				
+		"ruben_ivona": {
+			"country": "NL",
+			"language": "nl",
+			"gender": "M",
+			"source": "ivona",
+            "arg": "/dutch/47-mannelijke-stem-ruben.html",
+            "desc": "Ruben (Ivona)"
+        },  
 		"willem": {
 			"country": "NL",
 			"language": "nl",
@@ -1468,6 +2266,26 @@
 			"source": "vocalware",
 			"desc": "Willem"
 		},
+		"xander": {
+			"country": "NL",
+			"language": "nl",
+			"gender": "M",
+			"arg": [
+				4,
+				11,
+				4
+			],
+			"source": "vocalware",
+			"desc": "Xander"
+		},		
+        "ada": {
+            "country": "NL",
+            "language": "nl",
+            "gender": "M",
+            "source": "cereproc",
+            "arg": "Ada",
+            "desc": "Ada"
+        },
 		"klara": {
 			"country": "DE",
 			"language": "de",
@@ -1480,6 +2298,30 @@
 			"source": "vocalware",
 			"desc": "Klara"
 		},
+        "ada": {
+            "country": "DE",
+            "language": "de",
+            "gender": "M",
+            "source": "cereproc",
+            "arg": "Alex",
+            "desc": "Alex (Crecproc)"
+        },		
+        "gudrun": {
+            "country": "DE",
+            "language": "de",
+            "gender": "F",
+            "source": "cereproc",
+            "arg": "Gudrun",
+            "desc": "Gudrun"
+        },		
+        "leopold": {
+            "country": "DE",
+            "language": "de",
+            "gender": "M",
+            "source": "cereproc",
+            "arg": "Leopold",
+            "desc": "Leopold"
+        },
 		"reiner": {
 			"country": "DE",
 			"language": "de",
@@ -1624,6 +2466,50 @@
 			"source": "vocalware",
 			"desc": "Mellow Male"
 		},
+		"mikko": {
+			"country": "FI",
+			"language": "fi",
+			"gender": "M",
+			"arg": [
+				4,
+				23,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Mikko"
+		},		
+		"sanna_acapela": {
+			"country": "FI",
+			"language": "fi",
+			"gender": "F",
+			"source": "acapela",
+			"arg": "sanna22k",
+			"desc": "Sanna (Acapela)"
+		},			
+		"milla": {
+			"country": "FI",
+			"language": "fi",
+			"gender": "F",
+			"arg": [
+				2,
+				23,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Milla"
+		},	
+		"sanna": {
+			"country": "FI",
+			"language": "fi",
+			"gender": "F",
+			"arg": [
+				7,
+				23,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Sanna"
+		},
 		"milktoast": {
 			"country": "US",
 			"language": "en",
@@ -1647,6 +2533,30 @@
 			],
 			"source": "vocalware",
 			"desc": "Munchkin"
+		},
+		"datu": {
+			"country": "FP",
+			"language": "fp",
+			"gender": "M",
+			"arg": [
+				7,
+				32,
+				2
+			],
+			"source": "vocalware",
+			"desc": "Datu"
+		},		
+		"mayumi": {
+			"country": "FP",
+			"language": "fp",
+			"gender": "F",
+			"arg": [
+				7,
+				32,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Mayumi"
 		},
 		"nerd": {
 			"country": "US",
@@ -1815,6 +2725,42 @@
 			],
 			"source": "vocalware",
 			"desc": "Steven (Oddcast)"
+		},
+		"bintang": {
+			"country": "IN",
+			"language": "in",
+			"gender": "M",
+			"arg": [
+				7,
+				2,
+				2
+			],
+			"source": "vocalware",
+			"desc": "Bintang"
+		},	
+		"damayanti": {
+			"country": "IN",
+			"language": "in",
+			"gender": "F",
+			"arg": [
+				4,
+				2,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Damayanti"
+		},	
+		"putri": {
+			"country": "IN",
+			"language": "in",
+			"gender": "F",
+			"arg": [
+				7,
+				2,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Putri"
 		},
 		"kenneth": {
 			"country": "US",
@@ -2008,6 +2954,18 @@
 			"source": "vocalware",
 			"desc": "Matilda"
 		},
+		"brenda": {
+			"country": "US",
+			"language": "en",
+			"gender": "F",
+			"arg": [
+				7,
+				1,
+				7
+			],
+			"source": "vocalware",
+			"desc": "Brenda"
+		},
 		"moira": {
 			"country": "IE",
 			"language": "en",
@@ -2152,6 +3110,190 @@
 			"source": "vocalware",
 			"desc": "Bernard"
 		},
+		"celine": {
+			"country": "FR",
+			"language": "fr",
+			"gender": "F",
+			"source": "polly",
+			"arg": "Celine",
+			"desc": "Celine"
+		},			
+		"mathieu": {
+			"country": "FR",
+			"language": "fr",
+			"gender": "F",
+			"source": "polly",
+			"arg": "Mathieu",
+			"desc": "Mathieu"
+		},
+		"mathieu_ivona": {
+			"country": "FR",
+			"language": "fr",
+			"gender": "F",
+			"source": "ivona",
+			"arg": "/french/40-voix-masculine-mathieu.html",
+			"desc": "Mathieu (Ivona)"
+		},		
+		"chantal": {
+			"country": "CA",
+			"language": "fr",
+			"gender": "F",
+			"source": "polly",
+			"arg": "Chantal",
+			"desc": "Chantal"
+		},		
+		"chantal_ivona": {
+			"country": "CA",
+			"language": "fr",
+			"gender": "F",
+			"source": "ivona",
+			"arg": "/french/canadian/13-voix-de-femme-chantal.html",
+			"desc": "Chantal (Ivona)"
+		},	
+		"alice": {
+			"country": "FR",
+			"language": "fr",
+			"gender": "F",
+			"source": "acapela",
+			"arg": "alice22k",
+			"desc": "Alice"
+		},			
+		"anais": {
+			"country": "FR",
+			"language": "fr",
+			"gender": "F",
+			"source": "acapela",
+			"arg": "anais22k",
+			"desc": "Anais"
+		},
+		"antoine_acapela": {
+			"country": "FR",
+			"language": "fr",
+			"gender": "M",
+			"source": "acapela",
+			"arg": "antoine22k",
+			"desc": "Antoine (Acapela)"
+		},	
+		"antoinefromafar": {
+			"country": "FR",
+			"language": "fr",
+			"gender": "M",
+			"source": "acapela",
+			"arg": "antoinefromafar22k",
+			"desc": "Antoine (FromAfar)"
+		},	
+		"antoinehappy": {
+			"country": "FR",
+			"language": "fr",
+			"gender": "M",
+			"source": "acapela",
+			"arg": "antoinehappy22k",
+			"desc": "Antoine (Happy)"
+		},	
+		"antoinesad": {
+			"country": "FR",
+			"language": "fr",
+			"gender": "M",
+			"source": "acapela",
+			"arg": "antoinesad22k",
+			"desc": "Antoine (Sad)"
+		},		
+		"antoineupclose": {
+			"country": "FR",
+			"language": "fr",
+			"gender": "M",
+			"source": "acapela",
+			"arg": "antoineupclose22k",
+			"desc": "Antoine (Up Close)"
+		},	
+		"bruno": {
+			"country": "FR",
+			"language": "fr",
+			"gender": "M",
+			"source": "acapela",
+			"arg": "bruno22k",
+			"desc": "Bruno"
+		},	
+		"claire_acapella": {
+			"country": "FR",
+			"language": "fr",
+			"gender": "F",
+			"source": "acapela",
+			"arg": "claire22k",
+			"desc": "Claire (Acapela)"
+		},			
+		"elise": {
+			"country": "FR",
+			"language": "fr",
+			"gender": "F",
+			"source": "acapela",
+			"arg": "elise22k",
+			"desc": "Elise"
+		},					
+		"juliefrenchacapella": {
+			"country": "FR",
+			"language": "fr",
+			"gender": "F",
+			"source": "acapela",
+			"arg": "julie22k",
+			"desc": "Julie (Acapela)"
+		},			
+		"justine": {
+			"country": "FR",
+			"language": "fr",
+			"gender": "F",
+			"source": "acapela",
+			"arg": "justine22k",
+			"desc": "Justine"
+		},					
+		"manon": {
+			"country": "FR",
+			"language": "fr",
+			"gender": "F",
+			"source": "acapela",
+			"arg": "justine22k",
+			"desc": "Justine"
+		},	
+		"margaux": {
+			"country": "FR",
+			"language": "fr",
+			"gender": "F",
+			"source": "acapela",
+			"arg": "margaux22k",
+			"desc": "Margaux"
+		},		
+		"margauxhappy": {
+			"country": "FR",
+			"language": "fr",
+			"gender": "F",
+			"source": "acapela",
+			"arg": "margauxhappy22k",
+			"desc": "Margaux (Happy)"
+		},		
+		"margauxsad": {
+			"country": "FR",
+			"language": "fr",
+			"gender": "F",
+			"source": "acapela",
+			"arg": "margauxsad22k",
+			"desc": "Margaux (Sad)"
+		},	
+		"valentin": {
+			"country": "FR",
+			"language": "fr",
+			"gender": "M",
+			"source": "acapela",
+			"arg": "valentin22k",
+			"desc": "Valentin"
+		},	
+		"louise": {
+			"country": "CA",
+			"language": "fr",
+			"gender": "F",
+			"source": "acapela",
+			"arg": "louise22k",
+			"desc": "Louise"
+		},
 		"juliette": {
 			"country": "FR",
 			"language": "fr",
@@ -2175,6 +3317,30 @@
 			],
 			"source": "vocalware",
 			"desc": "Alain"
+		},
+		"antoine": {
+			"country": "FR",
+			"language": "fr",
+			"gender": "M",
+			"arg": [
+				7,
+				4,
+				2
+			],
+			"source": "vocalware",
+			"desc": "Antoine"
+		},		
+		"beatrice": {
+			"country": "FR",
+			"language": "fr",
+			"gender": "M",
+			"arg": [
+				7,
+				4,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Beatrice"
 		},
 		"pierre": {
 			"country": "CA",
@@ -2212,6 +3378,18 @@
 			"source": "vocalware",
 			"desc": "Florence"
 		},
+		"gaspard": {
+			"country": "FR",
+			"language": "fr",
+			"gender": "M",
+			"arg": [
+				7,
+				4,
+				4
+			],
+			"source": "vocalware",
+			"desc": "Gaspard"
+},			
 		"jolie": {
 			"country": "FR",
 			"language": "fr",
@@ -2224,6 +3402,18 @@
 			"source": "vocalware",
 			"desc": "Jolie"
 		},
+		"juliefrench": {
+			"country": "CA",
+			"language": "fr",
+			"gender": "F",
+			"arg": [
+				4,
+				4,
+				2
+			],
+			"source": "vocalware",
+			"desc": "Julie (French)"
+		},
 		"olivier": {
 			"country": "FR",
 			"language": "fr",
@@ -2235,6 +3425,30 @@
 			],
 			"source": "vocalware",
 			"desc": "Olivier"
+		},
+		"florence": {
+			"country": "CA",
+			"language": "fr",
+			"gender": "F",
+			"source": "cereproc",
+			"arg": "Florence",
+			"desc": "Florence (Crecproc)"
+		},
+		"laurent": {
+			"country": "FR",
+			"language": "fr",
+			"gender": "F",
+			"source": "cereproc",
+			"arg": "Laurent",
+			"desc": "Laurent"
+		},	
+		"suzanne": {
+			"country": "FR",
+			"language": "fr",
+			"gender": "F",
+			"source": "cereproc",
+			"arg": "Suzanne",
+			"desc": "Suzanne"
 		},
 		"carmela": {
 			"country": "ES",
@@ -2272,6 +3486,18 @@
 			"source": "vocalware",
 			"desc": "Stefan"
 		},
+		"steffi": {
+			"country": "DE",
+			"language": "de",
+			"gender": "M",
+			"arg": [
+				4,
+				3,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Steffi"
+		},
 		"afroditi": {
 			"country": "EL",
 			"language": "el",
@@ -2283,6 +3509,66 @@
 			],
 			"source": "vocalware",
 			"desc": "Afroditi"
+		},
+		"dimitris": {
+			"country": "EL",
+			"language": "el",
+			"gender": "M",
+			"source": "acapela",
+			"arg": "dimitris22k",
+			"desc": "Dimitris"
+		},	
+		"dimitrishappy": {
+			"country": "EL",
+			"language": "el",
+			"gender": "M",
+			"source": "acapela",
+			"arg": "dimitrishappy22k",
+			"desc": "Dimitris (Happy)"
+		},		
+		"dimitrissad": {
+			"country": "EL",
+			"language": "el",
+			"gender": "M",
+			"source": "acapela",
+			"arg": "dimitrissad22k",
+			"desc": "Dimitris (Sad)"
+		},				
+		"alexandros": {
+			"country": "EL",
+			"language": "el",
+			"gender": "M",
+			"arg": [
+				4,
+				8,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Alexandros"
+		},	
+		"eleni": {
+			"country": "EL",
+			"language": "el",
+			"gender": "F",
+			"arg": [
+				7,
+				8,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Eleni"
+		},	
+		"giorgos": {
+			"country": "EL",
+			"language": "el",
+			"gender": "M",
+			"arg": [
+				7,
+				8,
+				2
+			],
+			"source": "vocalware",
+			"desc": "Giorgos"
 		},
 		"nikos": {
 			"country": "EL",
@@ -2296,6 +3582,30 @@
 			"source": "vocalware",
 			"desc": "Nikos"
 		},
+		"alessandro": {
+			"country": "IT",
+			"language": "it",
+			"gender": "M",
+			"arg": [
+				7,
+				7,
+				2
+			],
+			"source": "vocalware",
+			"desc": "Alessandro"
+		},
+		"bianca": {
+			"country": "IT",
+			"language": "it",
+			"gender": "M",
+			"arg": [
+				7,
+				7,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Bianca"
+			},
 		"federica": {
 			"country": "IT",
 			"language": "it",
@@ -2307,6 +3617,30 @@
 			],
 			"source": "vocalware",
 			"desc": "Federica"
+		},
+		"fabiana": {
+			"country": "IT",
+			"language": "it",
+			"gender": "F",
+			"source": "acapela",
+			"arg": "fabiana22k",
+			"desc": "Fabiana"
+		},				
+		"chiara": {
+			"country": "IT",
+			"language": "it",
+			"gender": "F",
+			"source": "acapela",
+			"arg": "chiara22k",
+			"desc": "Chiara"
+		},	
+		"vittorio": {
+			"country": "IT",
+			"language": "it",
+			"gender": "F",
+			"source": "acapela",
+			"arg": "vittorio22k",
+			"desc": "Vittorio"
 		},
 		"giulia": {
 			"country": "IT",
@@ -2368,6 +3702,18 @@
 			"source": "vocalware",
 			"desc": "Paola"
 		},
+		"paolo": {
+			"country": "IT",
+			"language": "it",
+			"gender": "F",
+			"arg": [
+				4,
+				7,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Paolo"
+		},
 		"raffaele": {
 			"country": "IT",
 			"language": "it",
@@ -2392,6 +3738,18 @@
 			"source": "vocalware",
 			"desc": "Silvana"
 		},
+		"silvia": {
+			"country": "IT",
+			"language": "it",
+			"gender": "F",
+			"arg": [
+				4,
+				7,
+				2
+			],
+			"source": "vocalware",
+			"desc": "Silvia"
+		},
 		"valentina": {
 			"country": "IT",
 			"language": "it",
@@ -2403,6 +3761,58 @@
 			],
 			"source": "vocalware",
 			"desc": "Valentina"
+		},
+		"dagrun": {
+			"country": "NO",
+			"language": "no",
+			"gender": "F",
+			"arg": [
+				7,
+				20,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Dagrun"
+		},	
+		"bente": {
+			"country": "NO",
+			"language": "no",
+			"gender": "F",
+			"source": "acapela",
+			"arg": "bente22k",
+			"desc": "Bente"
+		},			
+		"elias": {
+			"country": "NO",
+			"language": "no",
+			"gender": "M",
+			"source": "acapela",
+			"arg": "elias22k",
+			"desc": "Elias"
+		},	
+		"emilie": {
+			"country": "NO",
+			"language": "no",
+			"gender": "F",
+			"source": "acapela",
+			"arg": "emilie22k",
+			"desc": "Emilie"
+		},	
+		"kari": {
+			"country": "NO",
+			"language": "no",
+			"gender": "F",
+			"source": "acapela",
+			"arg": "kari22k",
+			"desc": "Kari"
+		},			
+		"olav": {
+			"country": "NO",
+			"language": "no",
+			"gender": "M",
+			"source": "acapela",
+			"arg": "olav22k",
+			"desc": "Olav"
 		},
 		"henrik": {
 			"country": "NO",
@@ -2416,6 +3826,42 @@
 			"source": "vocalware",
 			"desc": "Henrik"
 		},
+		"eliska": {
+			"country": "SL",
+			"language": "sl",
+			"gender": "F",
+			"arg": [
+				7,
+				37,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Eliska"
+		},		
+		"lars": {
+			"country": "NO",
+			"language": "no",
+			"gender": "M",
+			"arg": [
+				7,
+				20,
+				2
+			],
+			"source": "vocalware",
+			"desc": "Lars"
+		},	
+		"stine": {
+			"country": "NO",
+			"language": "no",
+			"gender": "F",
+			"arg": [
+				4,
+				20,
+				2
+			],
+			"source": "vocalware",
+			"desc": "Lars"
+		},
 		"vilde": {
 			"country": "NO",
 			"language": "no",
@@ -2428,6 +3874,46 @@
 			"source": "vocalware",
 			"desc": "Vilde"
 		},
+		"liv": {
+			"country": "NO",
+			"language": "no",
+			"gender": "F",
+			"source": "polly",
+			"arg": "Liv",
+			"desc": "Liv"
+		},		
+		"liv_ivona": {
+			"country": "NO",
+			"language": "no",
+			"gender": "F",
+			"source": "ivona",
+			"arg": "/norwegian/34-kvinne-stemme-liv.html",
+			"desc": "Liv (Ivona)"
+		},				
+		"agata": {
+			"country": "PL",
+			"language": "pl",
+			"gender": "F",
+			"arg": [
+				4,
+				14,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Agata"
+		},		
+		"danota": {
+			"country": "PL",
+			"language": "pl",
+			"gender": "F",
+			"arg": [
+				7,
+				14,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Danota"
+		},
 		"krzysztof": {
 			"country": "PL",
 			"language": "pl",
@@ -2439,6 +3925,126 @@
 			],
 			"source": "vocalware",
 			"desc": "Krzysztof"
+		},
+		"wojciech": {
+			"country": "PL",
+			"language": "pl",
+			"gender": "M",
+			"arg": [
+				7,
+				14,
+				2
+			],
+			"source": "vocalware",
+			"desc": "Wojciech"
+		},		
+		"arantxa": {
+			"country": "BA",
+			"language": "ba",
+			"gender": "F",
+			"arg": [
+				4,
+				22,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Arantxa"
+		},		
+		"ewa": {
+			"country": "PL",
+			"language": "pl",
+			"gender": "F",
+			"source": "polly",
+			"arg": "Ewa",
+			"desc": "Ewa"
+		},
+		"ewa_ivona": {
+			"country": "PL",
+			"language": "pl",
+			"gender": "F",
+			"source": "ivona",
+			"arg": "/polish/19-kobiecy-glos-ewa.html",
+			"desc": "Liv (Ivona)"
+		},	
+		"ania": {
+			"country": "PL",
+			"language": "pl",
+			"gender": "F",
+			"source": "acapela",
+			"arg": "ania22k",
+			"desc": "Ania"
+		},			
+		"monika": {
+			"country": "PL",
+			"language": "pl",
+			"gender": "F",
+			"source": "acapela",
+			"arg": "monika22k",
+			"desc": "Monika"
+		},				
+		"jacek": {
+			"country": "PL",
+			"language": "pl",
+			"gender": "M",
+			"source": "polly",
+			"arg": "Jacek",
+			"desc": "Jacek"
+		},	
+		"jacek_ivona": {
+			"country": "PL",
+			"language": "pl",
+			"gender": "M",
+			"source": "ivona",
+			"arg": "/polish/26-meski-glos-jacek.html",
+			"desc": "Jacek (Ivona)"
+		},	
+		"agnieszka": {
+			"country": "PL",
+			"language": "pl",
+			"gender": "F",
+			"source": "ivona",
+			"arg": "/polish/9-kobiecy-glos-agnieszka.html",
+			"desc": "Agnieszka"
+		},			
+		"maja": {
+			"country": "PL",
+			"language": "pl",
+			"gender": "F",
+			"source": "polly",
+			"arg": "Maja",
+			"desc": "Maja"
+		},	
+		"maja_ivona": {
+			"country": "PL",
+			"language": "pl",
+			"gender": "F",
+			"source": "ivona",
+			"arg": "/polish/38-kobiecy-glos-maja.html",
+			"desc": "Maja (Ivona)"
+		},			
+		"jan": {
+			"country": "PL",
+			"language": "pl",
+			"gender": "M",
+			"source": "polly",
+			"arg": "Jan",
+			"desc": "Jan"
+		},	
+		"pola": {
+			"country": "PL",
+			"language": "pl",
+			"gender": "M",
+			"source": "cereproc",
+			"arg": "Pola",
+			"desc": "Pola"
+		},	
+		"jan_ivona": {
+			"country": "PL",
+			"language": "pl",
+			"gender": "M",
+			"source": "ivona",
+			"arg": "/polish/27-meski-glos-jan.html",
+			"desc": "Jan (Ivona)"
 		},
 		"zosia": {
 			"country": "PL",
@@ -2464,6 +4070,34 @@
 			"source": "vocalware",
 			"desc": "Amalia"
 		},
+		"ana": {
+			"country": "BR",
+			"language": "pt",
+			"gender": "F",
+			"arg": [
+				7,
+				6,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Ana"
+		},	
+		"Isabela": {
+			"country": "BR",
+			"language": "pt",
+			"gender": "F",
+			"source": "watson",
+			"arg": "pt-BR_IsabelaVoice",
+			"desc": "Isabela"
+		},	
+		"IsabelaV3": {
+			"country": "BR",
+			"language": "pt",
+			"gender": "F",
+			"source": "watson",
+			"arg": "pt-BR_IsabelaV3Voice",
+			"desc": "IsabelaV3"
+		},
 		"eusebio": {
 			"country": "PT",
 			"language": "pt",
@@ -2488,6 +4122,34 @@
 			"source": "vocalware",
 			"desc": "Ioana"
 		},
+		"simona": {
+			"country": "RO",
+			"language": "ro",
+			"gender": "F",
+			"arg": [
+				4,
+				30,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Simona"
+		},		
+		"carmen_polly": {
+			"country": "RO",
+			"language": "ro",
+			"gender": "M",
+			"source": "polly",
+			"arg": "Carmen",
+			"desc": "Carmen (Polly)"
+		},		
+		"daria": {
+			"country": "RO",
+			"language": "ro",
+			"gender": "F",
+			"source": "cereproc",
+			"arg": "Daria",
+			"desc": "Daria"
+		},
 		"dmitri": {
 			"country": "RU",
 			"language": "ru",
@@ -2499,6 +4161,26 @@
 			],
 			"source": "vocalware",
 			"desc": "Dmitri"
+		},
+		"milena": {
+			"country": "RU",
+			"language": "ru",
+			"gender": "M",
+			"arg": [
+				4,
+				21,
+				2
+			],
+			"source": "vocalware",
+			"desc": "Milena"
+		},
+        "avrora": {
+            "country": "ES",
+            "language": "es",
+            "gender": "M",
+            "source": "cereproc",
+            "arg": "Avrora",
+            "desc": "Avrora"
 		},
 		"olga": {
 			"country": "RU",
@@ -2547,6 +4229,18 @@
 			],
 			"source": "vocalware",
 			"desc": "Diego"
+		},
+		"duardo": {
+			"country": "ES",
+			"language": "es",
+			"gender": "F",
+			"arg": [
+				4,
+				2,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Duardo"
 		},
 		"esperanza": {
 			"country": "MX",
@@ -2632,6 +4326,18 @@
 			"source": "vocalware",
 			"desc": "Ximena"
 		},
+		"alva": {
+			"country": "SE",
+			"language": "sv",
+			"gender": "F",
+			"arg": [
+				4,
+				9,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Alva"
+		},
 		"annika": {
 			"country": "SE",
 			"language": "sv",
@@ -2644,6 +4350,138 @@
 			"source": "vocalware",
 			"desc": "Annika"
 		},
+		"astrid_polly": {
+			"country": "SE",
+			"language": "sv",
+			"gender": "F",
+			"source": "polly",
+			"arg": "Astrid",
+			"desc": "Astrid (Polly)"
+		},	
+		"astrid_ivona": {
+			"country": "SE",
+			"language": "sv",
+			"gender": "F",
+			"source": "ivona",
+			"arg": "/swedish/10-kvinnlig-rost-astrid.html",
+			"desc": "Astrid (Ivona)"
+		},	
+		"elin": {
+			"country": "SE",
+			"language": "sv",
+			"gender": "M",
+			"source": "acapela",
+			"arg": "elin22k",
+			"desc": "Elin"
+		},	
+		"emil": {
+			"country": "SE",
+			"language": "sv",
+			"gender": "M",
+			"source": "acapela",
+			"arg": "emil22k",
+			"desc": "Emil"
+		},			
+		"emma_acapela": {
+			"country": "SE",
+			"language": "sv",
+			"gender": "F",
+			"source": "acapela",
+			"arg": "emma22k",
+			"desc": "Emma (Acapela)"
+		},	
+		"erik_acapela": {
+			"country": "SE",
+			"language": "sv",
+			"gender": "M",
+			"source": "acapela",
+			"arg": "erik22k",
+			"desc": "Erik (Acapela)"
+		},	
+		"fillip": {
+			"country": "SE",
+			"language": "sv",
+			"gender": "M",
+			"source": "acapela",
+			"arg": "fillip22k",
+			"desc": "Fillip"
+		},	
+		"freja": {
+			"country": "SE",
+			"language": "sv",
+			"gender": "M",
+			"source": "acapela",
+			"arg": "freja22k",
+			"desc": "Freja"
+		},		
+		"samuel": {
+			"country": "SE",
+			"language": "sv",
+			"gender": "M",
+			"source": "acapela",
+			"arg": "samuel22k",
+			"desc": "Samuel"
+		},	
+		"kai": {
+			"country": "SE",
+			"language": "sv",
+			"gender": "M",
+			"source": "acapela",
+			"arg": "kai22k",
+			"desc": "Kai"
+		},	
+		"mia": {
+			"country": "SE",
+			"language": "sv",
+			"gender": "M",
+			"source": "acapela",
+			"arg": "mia22k",
+			"desc": "Mia"
+		},				
+		"yiva": {
+			"country": "SE",
+			"language": "sv",
+			"gender": "F",
+			"source": "cereproc",
+			"arg": "YIva",
+			"desc": "YIva"
+		},			
+		"astrid": {
+			"country": "SE",
+			"language": "sv",
+			"gender": "F",
+			"arg": [
+				7,
+				9,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Astrid (Oddcast)"
+		},	
+		"gustav": {
+			"country": "SE",
+			"language": "sv",
+			"gender": "M",
+			"arg": [
+				7,
+				9,
+				2
+			],
+			"source": "vocalware",
+			"desc": "Gustav"
+		},	
+		"oskar": {
+			"country": "SE",
+			"language": "sv",
+			"gender": "M",
+			"arg": [
+				4,
+				9,
+				3
+			],
+			"source": "vocalware",
+			"desc": "Oskar"
+		},
 		"sven": {
 			"country": "SE",
 			"language": "sv",
@@ -2655,6 +4493,50 @@
 			],
 			"source": "vocalware",
 			"desc": "Sven"
+		},
+		"vira": {
+			"country": "UK",
+			"language": "uk",
+			"gender": "F",
+			"arg": [
+				7,
+				40,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Vira"
+		},				
+		"aylin": {
+			"country": "TR",
+			"language": "tr",
+			"gender": "F",
+			"arg": [
+				4,
+				16,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Kerem"
+		},		
+		"ipek": {
+			"country": "TR",
+			"language": "tr",
+			"gender": "F",
+			"source": "acapela",
+			"arg": "ipek22k",
+			"desc": "Ipek"
+		},
+		"eymen": {
+			"country": "TR",
+			"language": "tr",
+			"gender": "M",
+			"arg": [
+				7,
+				16,
+				2
+			],
+			"source": "vocalware",
+			"desc": "Eymen"
 		},
 		"kerem": {
 			"country": "TR",
@@ -2680,6 +4562,18 @@
 			"source": "vocalware",
 			"desc": "Selin"
 		},
+		"zehra": {
+			"country": "TR",
+			"language": "tr",
+			"gender": "F",
+			"arg": [
+				7,
+				16,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Zehra"
+		},
 		"zeynep": {
 			"country": "TR",
 			"language": "tr",
@@ -2691,6 +4585,74 @@
 			],
 			"source": "vocalware",
 			"desc": "Zeynep"
+		},
+		"chan": {
+			"country": "CN",
+			"language": "zh",
+			"gender": "M",
+			"arg": [
+				7,
+				10,
+				4
+			],
+			"source": "vocalware",
+			"desc": "Chan"
+		},
+		"lina": {
+			"country": "CN",
+			"language": "zh",
+			"gender": "F",
+			"source": "watson",
+			"arg": "zh-CN_LiNaVoice",
+			"desc": "LiNa"
+		},		
+		"wangwei": {
+			"country": "CN",
+			"language": "zh",
+			"gender": "M",
+			"source": "watson",
+			"arg": "zh-CN_WangWeiVoice",
+			"desc": "WangWei"
+		},		
+		"lulu": {
+			"country": "CN",
+			"language": "zh",
+			"gender": "F",
+			"source": "acapela",
+			"arg": "lulu22k",
+			"desc": "Lulu"
+		},				
+		"zhangjing": {
+			"country": "CN",
+			"language": "zh",
+			"gender": "F",
+			"source": "watson",
+			"arg": "zh-CN_ZhangJingVoice",
+			"desc": "ZhangJing"
+		},				
+		"chia-hao": {
+			"country": "CN",
+			"language": "zh",
+			"gender": "M",
+			"arg": [
+				7,
+				10,
+				2
+			],
+			"source": "vocalware",
+			"desc": "Chia-hao"
+		},	
+		"chia-ling": {
+			"country": "CN",
+			"language": "zh",
+			"gender": "M",
+			"arg": [
+				7,
+				10,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Chia-ling"
 		},
 		"hui": {
 			"country": "CN",
@@ -2751,6 +4713,14 @@
 			],
 			"source": "vocalware",
 			"desc": "Liang"
+		},
+		"maillin": {
+			"country": "CN",
+			"language": "zh",
+			"gender": "M",
+			"source": "cereproc",
+			"arg": "Maillin-CereWave",
+			"desc": "Maillin"
 		},
 		"yafang": {
 			"country": "TW",
@@ -2860,6 +4830,98 @@
 			"source": "vocalware",
 			"desc": "Paul"
 		},
+		"pavla": {
+			"country": "CZ",
+			"language": "cz",
+			"gender": "F",
+			"arg": [
+				7,
+				18,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Pavla"
+		},	
+		"zuzana": {
+			"country": "CZ",
+			"language": "cz",
+			"gender": "F",
+			"arg": [
+				4,
+				18,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Zuzana"
+		},		
+		"eliska_acapela": {
+			"country": "CZ",
+			"language": "cz",
+			"gender": "F",
+			"source": "acapela",
+			"arg": "eliska22k",
+			"desc": "Eliska (Acapela)"
+		},				
+		"lakshmi": {
+			"country": "IN",
+			"language": "en",
+			"gender": "F",
+			"arg": [
+				7,
+				1,
+				5
+			],
+			"source": "vocalware",
+			"desc": "Lakshmi"
+		},
+		"karan": {
+			"country": "IN",
+			"language": "hi",
+			"gender": "M",
+			"arg": [
+				7,
+				24,
+				2
+			],
+			"source": "vocalware",
+			"desc": "Karan"
+		},		
+		"lekha": {
+			"country": "IN",
+			"language": "hi",
+			"gender": "M",
+			"arg": [
+				4,
+				24,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Lekha"
+		},	
+		"swathi": {
+			"country": "IN",
+			"language": "hi",
+			"gender": "M",
+			"arg": [
+				7,
+				24,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Swathi"
+		},			
+		"prashant": {
+			"country": "IN",
+			"language": "en",
+			"gender": "M",
+			"arg": [
+				7,
+				1,
+				6
+			],
+			"source": "vocalware",
+			"desc": "Prashant"
+		},
 		"chloe_vocalware": {
 			"country": "CA",
 			"language": "fr",
@@ -2872,6 +4934,18 @@
 			"source": "vocalware",
 			"desc": "Chloe (Vocalware)"
 		},
+		"felix": {
+			"country": "CA",
+			"language": "fr",
+			"gender": "M",
+			"arg": [
+				4,
+				4,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Felix"
+		},
 		"leo": {
 			"country": "CA",
 			"language": "fr",
@@ -2883,6 +4957,18 @@
 			],
 			"source": "vocalware",
 			"desc": "Leo"
+		},
+		"leonie": {
+			"country": "CA",
+			"language": "fr",
+			"gender": "M",
+			"arg": [
+				7,
+				4,
+				3
+			],
+			"source": "vocalware",
+			"desc": "Leonie"
 		},
 		"louis": {
 			"country": "FR",
@@ -2908,6 +4994,42 @@
 			"source": "vocalware",
 			"desc": "Roxane"
 		},
+		"sebastien": {
+			"country": "CA",
+			"language": "fr",
+			"gender": "M",
+			"arg": [
+				4,
+				4,
+				3
+			],
+			"source": "vocalware",
+			"desc": "Sebastien"
+		},	
+		"thomas": {
+			"country": "FR",
+			"language": "fr",
+			"gender": "M",
+			"arg": [
+				4,
+				4,
+				5
+			],
+			"source": "vocalware",
+			"desc": "Thomas"
+		},	
+		"virginie": {
+			"country": "CA",
+			"language": "fr",
+			"gender": "M",
+			"arg": [
+				4,
+				4,
+				4
+			],
+			"source": "vocalware",
+			"desc": "Virginie"
+		},
 		"lena": {
 			"country": "DE",
 			"language": "de",
@@ -2920,6 +5042,42 @@
 			"source": "vocalware",
 			"desc": "Lena"
 		},
+		"anna": {
+			"country": "DE",
+			"language": "de",
+			"gender": "F",
+			"arg": [
+				4,
+				3,
+				3
+			],
+			"source": "vocalware",
+			"desc": "Anna"
+		},		
+		"heinz": {
+			"country": "DE",
+			"language": "de",
+			"gender": "M",
+			"arg": [
+				7,
+				3,
+				2
+			],
+			"source": "vocalware",
+			"desc": "Heinz"
+		},	
+		"hilda": {
+			"country": "DE",
+			"language": "de",
+			"gender": "M",
+			"arg": [
+				7,
+				3,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Hilda"
+		},
 		"tim": {
 			"country": "DE",
 			"language": "de",
@@ -2931,6 +5089,18 @@
 			],
 			"source": "vocalware",
 			"desc": "Tim"
+		},
+		"yannick": {
+			"country": "DE",
+			"language": "de",
+			"gender": "M",
+			"arg": [
+				4,
+				3,
+				2
+			],
+			"source": "vocalware",
+			"desc": "Yannick"
 		},
 		"elisa": {
 			"country": "IT",
@@ -2956,6 +5126,14 @@
 			"source": "vocalware",
 			"desc": "Roberto"
 		},
+		"laura_cereproc": {
+			"country": "PT",
+			"language": "pt",
+			"gender": "M",
+			"source": "cereproc",
+			"arg": "Laura",
+			"desc": "Laura (Cereproc)"
+		},
 		"haruka": {
 			"country": "JP",
 			"language": "ja",
@@ -2979,6 +5157,50 @@
 			],
 			"source": "vocalware",
 			"desc": "Hikari"
+		},
+		"sakura": {
+			"country": "JP",
+			"language": "ja",
+			"gender": "F",
+			"source": "acapela",
+			"arg": "sakura22k",
+			"desc": "Sakura"
+		},				
+		"himari": {
+			"country": "JP",
+			"language": "ja",
+			"gender": "F",
+			"arg": [
+				7,
+				12,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Himari"
+		},		
+		"kaito": {
+			"country": "JP",
+			"language": "ja",
+			"gender": "M",
+			"arg": [
+				7,
+				12,
+				2
+			],
+			"source": "vocalware",
+			"desc": "Kaito"
+		},
+		"kyoko": {
+			"country": "JP",
+			"language": "ja",
+			"gender": "M",
+			"arg": [
+				4,
+				12,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Kyoko"
 		},
 		"misaki": {
 			"country": "JP",
@@ -3040,6 +5262,46 @@
 			"source": "vocalware",
 			"desc": "Takeru"
 		},
+		"emi": {
+			"country": "JP",
+			"language": "ja",
+			"gender": "F",
+			"source": "watson",
+			"arg": "ja-JP_EmiVoice",
+			"desc": "Emi"
+		},
+		"yiva": {
+			"country": "JP",
+			"language": "ja",
+			"gender": "F",
+			"source": "cereproc",
+			"arg": "Yuki",
+			"desc": "Yuki"
+		},					
+		"emiv3": {
+			"country": "JP",
+			"language": "ja",
+			"gender": "F",
+			"source": "watson",
+			"arg": "ja-JP_EmiV3Voice",
+			"desc": "EmiV3"
+		},		
+		"ceitidh": {
+			"country": "GE",
+			"language": "ge",
+			"gender": "F",
+			"source": "cereproc",
+			"arg": "Ceitidh",
+			"desc": "Ceitidh"
+		},
+		"peig": {
+			"country": "GA",
+			"language": "ga",
+			"gender": "F",
+			"source": "cereproc",
+			"arg": "Peig",
+			"desc": "Peig"
+		},
 		"dayoung": {
 			"country": "KO",
 			"language": "ko",
@@ -3051,6 +5313,30 @@
 			],
 			"source": "vocalware",
 			"desc": "Dayoung"
+		},
+		"minji": {
+			"country": "KO",
+			"language": "ko",
+			"gender": "F",
+			"source": "acapela",
+			"arg": "minji22k",
+			"desc": "Minji"
+		},			
+		"youngmi": {
+			"country": "KO",
+			"language": "ko",
+			"gender": "F",
+			"source": "watson",
+			"arg": "ko-KR_YoungmiVoice",
+			"desc": "Youngmi"
+		},	
+		"yuna": {
+			"country": "KO",
+			"language": "ko",
+			"gender": "F",
+			"source": "watson",
+			"arg": "ko-KR_YunaVoice",
+			"desc": "Yuna"
 		},
 		"hyeryun": {
 			"country": "KO",
@@ -3112,6 +5398,18 @@
 			"source": "vocalware",
 			"desc": "Junwoo"
 		},
+		"narae": {
+			"country": "KO",
+			"language": "ko",
+			"gender": "M",
+			"arg": [
+				4,
+				13,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Narae"
+		},
 		"sena": {
 			"country": "KO",
 			"language": "ko",
@@ -3160,6 +5458,110 @@
 			"source": "vocalware",
 			"desc": "Helena"
 		},
+		"leonor_portuguese": {
+			"country": "PT",
+			"language": "pt",
+			"gender": "F",
+			"arg": [
+				7,
+				6,
+				3
+			],
+			"source": "vocalware",
+			"desc": "Leonor (Portuguese)"
+		},	
+		"marica": {
+			"country": "BR",
+			"language": "pl",
+			"gender": "F",
+			"source": "acapela",
+			"arg": "marica22k",
+			"desc": "Marica"
+		},	
+		"celia": {
+			"country": "BR",
+			"language": "pl",
+			"gender": "F",
+			"source": "acapela",
+			"arg": "celia22k",
+			"desc": "Celia"
+		},			
+		"joana": {
+			"country": "PT",
+			"language": "pt",
+			"gender": "F",
+			"arg": [
+				4,
+				6,
+				3
+			],
+			"source": "vocalware",
+			"desc": "Joana"
+		},			
+		"cristiano": {
+			"country": "PT",
+			"language": "pt",
+			"gender": "M",
+			"source": "polly",
+			"arg": "Cristiano",
+			"desc": "Cristiano"
+		},
+		"cristiano_ivona": {
+			"country": "PT",
+			"language": "pt",
+			"gender": "M",
+			"source": "ivona",
+			"arg": "/portuguese/15-voz-masculina-cristiano.html",
+			"desc": "Cristiano (Ivona)"
+		},		
+		"ines": {
+			"country": "PT",
+			"language": "pt",
+			"gender": "F",
+			"source": "polly",
+			"arg": "Ines",
+			"desc": "Ines (Polly)"
+		},		
+		"gabirel": {
+			"country": "PT",
+			"language": "pt",
+			"gender": "F",
+			"source": "cereproc",
+			"arg": "Gabriel",
+			"desc": "Gabriel"
+		},		
+		"lucia": {
+			"country": "PT",
+			"language": "pt",
+			"gender": "F",
+			"source": "cereproc",
+			"arg": "Lucia",
+			"desc": "Lucia"
+		},				
+		"vitoria": {
+			"country": "BR",
+			"language": "pt",
+			"gender": "F",
+			"source": "polly",
+			"arg": "Vitoria",
+			"desc": "Vitoria"
+		},	
+		"ricardo": {
+			"country": "BR",
+			"language": "pt",
+			"gender": "M",
+			"source": "polly",
+			"arg": "Ricardo",
+			"desc": "Ricardo"
+		},	
+        "ricardo_ivona": {
+            "country": "BR",
+            "language": "pt",
+            "gender": "F",
+            "source": "ivona",
+            "arg": "/portuguese/brasilian/46-voz-masculina-ricardo.html",
+            "desc": "Ricardo (Ivona)"
+		},
 		"rafael": {
 			"country": "BR",
 			"language": "pt",
@@ -3171,6 +5573,30 @@
 			],
 			"source": "vocalware",
 			"desc": "Rafael"
+		},
+		"raquel": {
+			"country": "BR",
+			"language": "pt",
+			"gender": "F",
+			"arg": [
+				4,
+				6,
+				2
+			],
+			"source": "vocalware",
+			"desc": "Raquel"
+		},	
+		"tiago": {
+			"country": "BR",
+			"language": "pt",
+			"gender": "F",
+			"arg": [
+				7,
+				6,
+				4
+			],
+			"source": "vocalware",
+			"desc": "Tiago"
 		},
 		"francisco": {
 			"country": "MX",
@@ -3196,6 +5622,18 @@
 			"source": "vocalware",
 			"desc": "Gloria"
 		},
+		"javier": {
+			"country": "MX",
+			"language": "es",
+			"gender": "M",
+			"arg": [
+				4,
+				2,
+				5
+			],
+			"source": "vocalware",
+			"desc": "Javier"
+			},
 		"lola": {
 			"country": "ES",
 			"language": "es",
@@ -3220,6 +5658,30 @@
 			"source": "vocalware",
 			"desc": "Manuel"
 		},
+		"monica": {
+			"country": "ES",
+			"language": "es",
+			"gender": "F",
+			"arg": [
+				4,
+				2,
+				3
+			],
+			"source": "vocalware",
+			"desc": "Monica"
+		},		
+		"paulina": {
+			"country": "MX",
+			"language": "es",
+			"gender": "F",
+			"arg": [
+				4,
+				2,
+				4
+			],
+			"source": "vocalware",
+			"desc": "Paulina"
+		},
 		"violeta": {
 			"country": "ES",
 			"language": "es",
@@ -3231,6 +5693,18 @@
 			],
 			"source": "vocalware",
 			"desc": "Violeta"
+		},
+		"narisa": {
+			"country": "TH",
+			"language": "th",
+			"gender": "M",
+			"arg": [
+				4,
+				26,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Narisa"
 		},
 		"sarawut": {
 			"country": "TH",
@@ -3359,6 +5833,30 @@
 			"source": "voiceforge",
 			"arg": "Kevin",
 			"desc": "Kevin"
+		},
+		"kevinv3": {
+			"country": "US",
+			"language": "en",
+			"gender": "M",
+			"source": "watson",
+			"arg": "en-US_KevinV3Voice",
+			"desc": "KevinV3 (Watson)"				 
+		},
+		"charlotteV3": {
+			"country": "US",
+			"language": "en",
+			"gender": "M",
+			"source": "watson",
+			"arg": "en-GB_CharlotteV3Voice",
+			"desc": "CharlotteV3"
+		},	
+		"jamesV3": {
+			"country": "US",
+			"language": "en",
+			"gender": "M",
+			"source": "watson",
+			"arg": "en-GB_JamesV3Voice",
+			"desc": "JamesV3"
 		},
 		"kidaroo": {
 			"country": "US",

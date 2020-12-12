@@ -2,7 +2,7 @@
 Improvement of a major improvement of a GoAPI server wrapper designed to interact with Vyond's Legacy Video Maker.
 
 ## What stands out to the original Wrapper: Offline
-Um, well, it has Buisness Friendly (and updated branding)!
+Um, well, it has Buisness Friendly (and updated branding [and more assets])!
 
 ### But that's illegal!
 Fuck you, we are pirates and pirates are free.
@@ -18,7 +18,7 @@ Further information is inside this long repository.
 It's not finished!
 
 ## About the creator
-The creator of this improvement of Wrapper: Offline is MachileTheFanGA#2658. He puts the first letter of each word capitalized, I guess.
+The creator of this improvement of Wrapper: Offline is 🎄❄MachileTheFanGA❄🎄#2658. He puts the first letter of each word capitalized, I guess.
 
 ## Discord Server
 https://discord.com/invite/uUpVgysjpX
