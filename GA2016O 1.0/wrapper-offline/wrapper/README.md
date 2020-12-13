@@ -1,5 +1,5 @@
 # Wrapper
-*NOTE: This README is somewhat out of date. If you recieved this separately from a server folder, this will not work. Look for a full package of Wrapper: Offline. Otherwise, read the README file in the initial Wrapper: Offline folder for updated instructions and a better description.
+*NOTE: This README is somewhat out of date. If you recieved this separately from a server folder, this will not work. Look for a full package of GoAnimate 2016: Offline. Otherwise, read the README file in the initial GoAnimate 2016: Offline folder for updated instructions and a better description.
 
 This is an API wrapper for the Legacy Video Maker, which had been retired on *19th December 2019, 03:10 UTC*.	Unlike other services that attempt to sole the same problem, this project allows the LVM to access data peristence and is very portable.	Please keep in mind that not all features designed to run on the original API work properly.
 ## How to Use
