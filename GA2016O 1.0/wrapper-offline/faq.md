@@ -42,3 +42,6 @@ In the `start_wrapper.bat` prompt window, press *2* and *Enter*. Then, while hol
 - If you're wanting to import a *.swf* file, it **must** have an image or a sound. If it doesn't have that, the file will be in the `utilities\import_these\conflicts` and the `server\store\3a981f5cb2739137\import\conflicts` folder.
 
 Sometimes (maybe always) the importing doesn't work. So you must put your file in the `server\store\3a981f5cb2739137\import\sound` or the `...\prop` or the`...\bg` folders.
+
+## ew wrapper offline clone delet this or ill engind your live
+StOp BuLlYiNg OuR cOmMuNiTy, YoU jEaLoUs BaStArD pEiCe Of CrAp WhY dOeS eVeRy OnE hAtInG uS :sob: :sob: :sob:
