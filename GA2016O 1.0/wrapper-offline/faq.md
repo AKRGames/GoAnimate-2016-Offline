@@ -27,7 +27,7 @@ We are using their copyrighted material, yes. I don't think there's any denying 
 October 15th, 2020.
 
 ## How do I start it?
-Click `start_wrapper.bat`, and you'll see a disclaimer (you'll not see it the next time you start). Wait 20 seconds, and then press *y* and *Enter*. 
+Click `start_wrapper.bat`, and you'll see a disclaimer (you won't see it the next time you start). Wait 20 seconds, and then press *y* and *Enter*. 
 
 ## It is patchable?
 Obviously not, just don't put a image file called `patch.jpg`.
