@@ -1,7 +1,7 @@
 ::   Launcher
 :: Author: MapidsFanAnimate2006#2658
 :: License: MIT
-set WRAPPER_VER=1.3.5
+set WRAPPER_VER=1.1
 title GoAnimate 2016: Offline v%WRAPPER_VER% [Initializing...]
 
 ::::::::::::::::::::
