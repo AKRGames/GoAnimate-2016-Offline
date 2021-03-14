@@ -1,5 +1,5 @@
 # GoAnimate 2016: Offline
-After learning that GoAnimate Wrapper (a project by VisualPlugin) would be shut down, Wrapper: Offline was created.  This gave Machile's idea of making GoAnimate 2016: Offline. (simply called "GA2016O" for the rest of this page) Unlike the original project, GA2016O can not be shut down or "patched". You have the files all on your computer. This project is important for historical and archival purposes, as the ability to use this legacy editor and themes would be completely gone without it. Besides simply emulating the original Flash editor, some additional features and improvements have been made. And GA2016O will continue to get additional updates in the future.
+After learning that GoAnimate Wrapper (a project by VisualPlugin) would be shut down, Wrapper: Offline was created.  This gave CDD9999's idea of making GoAnimate 2016: Offline. (simply called "GA2016O" for the rest of this page) Unlike the original project, GA2016O can not be shut down or "patched". You have the files all on your computer. This project and the original is important for historical and archival purposes, as the ability to use this legacy editor and themes would be completely gone without it. Besides simply emulating the original Flash editor and being a Wrapper: Offline clone, some additional features and improvements have been made and added. And GA2016O will continue to get additional updates in the future.
 
 ## Running / Installation
 To start GA2016O on Windows, open start_wrapper.bat. It'll automate just about everything for you and, well, start GoAnimate 2016: Offline. On your first run, you will likely need to right-click it and click "Run as Administrator". This allows it to properly install what it needs to run. After your initial run, you shouldn't need to do that again, you can start it as normal.
@@ -47,18 +47,19 @@ GoAnimate 2016: Offline credits:
 | Name            | Contribution                     |
 | --------------- | -------------------------------- |
 | Mapids (D)      | GoAnimate 2016: Offline          |
-| Benson          | (the original) Wrapper: Offline   |
-| NathanTDA       | Logo                             |
+| Benson          | (the original) Wrapper: Offline  |
+| NathanTDA       | Logo (Wrapper: Offline)          |
+| AKRGames (D)    | Logo (GoAnimate 2016: Offline)   |
 | Blukas/GoTube   | Import idea, Mega Comedy World 2 |
 | VisualPlugin    | Text to speech voices            |
 | Imageny         | Text to speech voices            |
 | creepyjokes2000 | Waveform fix, improved actions   |
 | JoshAnimate     | Headgear fix                     |
-| BluePeacocks    | Business Friendly female character creator      |
+| BluePeacocks    | Business Friendly female character creator|
 | DaveAnimate2006 | Save starters                    |
 | HoodedCube      | Visual effects                   |
 
-These are unaffiliated people that they haven't directly done anything for the project (and probably don't even know it exists) but still deserve credit for their things. Kinda like a shoutout but in a project's readme. ***Please do not contact them about GoAnimate 2016: Offline.***
+These are unaffiliated people that they haven't directly done anything for the project (and probably don't even know it exists) but still deserve credit for their things. Kinda like a shoutout but in a project's readme. ***Please do not contact them about the original Wrapper: Offline or GoAnimate 2016: Offline.***
 | Name               | Contribution                     |
 | ------------------ | -------------------------------- |
 | Vyond              | Creators of the themes we love   |
