@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD012 MD022 MD026 MD032 -->
 # GoAnimate 2016: Offline FAQ
-Created by: MachileTheFanGA // GoAninatorGamer5667
+Created by: [CoolDiamondDude9999](https://www.youtube.com/channel/UCMNtr52qe9mGmmntXTnyXUw)
 
 ## What is GoAnimate 2016: Offline?
 It's a clone of Wrapper: Offline, but with extra stuff added.
